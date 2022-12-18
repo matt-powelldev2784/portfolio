@@ -26,7 +26,6 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid blue;
 }
 @media only screen and (max-width: 992px) {
   .hompage__flexbox {
