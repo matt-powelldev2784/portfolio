@@ -1,0 +1,124 @@
+.homepage__grid {
+  position: relative;
+  display: grid;
+  grid-template-rows: 3rem 1fr;
+  grid-template-columns: 100vw;
+  justify-content: center;
+  align-items: start;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid green;
+}
+
+.homepage__grid__item1 {
+  height: 100%;
+}
+
+.homepage__grid__item2 {
+  height: 100%;
+}
+
+.hompage__flexbox {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .hompage__flexbox {
+    flex-direction: column;
+  }
+}
+
+.homepage__flexbox_item1 {
+  margin: 0.5rem;
+}
+
+.homepage__flexbox_item2 {
+  margin: 0.5rem;
+}
+
+.homepage_text_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-width: 20rem;
+  margin: 0 auto;
+}
+
+.homepage_text__h1 {
+  position: relative;
+  display: block;
+  top: 1rem;
+  margin: 0rem 0.5rem;
+  color: white;
+  font-size: clamp(2rem, 5.58vw, 7rem);
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .homepage_text__h1 {
+    font-size: clamp(2rem, 7vw, 7rem);
+  }
+}
+
+.homepage_text__h1_span {
+  color: var(--light-blue);
+  font-size: clamp(2rem, 5.58vw, 7rem);
+  font-weight: 700;
+  text-align: center;
+  line-height: 4rem;
+}
+@media only screen and (max-width: 992px) {
+  .homepage_text__h1_span {
+    font-size: clamp(2rem, 7vw, 7rem);
+  }
+}
+
+.homepage_text__h2 {
+  margin: 0rem 0.5rem;
+  color: var(--light-blue);
+  font-size: clamp(1.02rem, 2.85vw, 4rem);
+  font-weight: 900;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .homepage_text__h2 {
+    font-size: clamp(1.02rem, 3.55vw, 7rem);
+  }
+}
+
+.homepage__portrait {
+  width: clamp(15rem, 32vw, 25rem);
+}
+@media only screen and (max-width: 992px) {
+  .homepage__portrait {
+    width: clamp(17rem, 18vw, 25rem);
+  }
+}
+@media only screen and (max-width: 451px) {
+  .homepage__portrait {
+    width: clamp(14rem, 18vw, 25rem);
+  }
+}
+
+.homepage__button {
+  display: block;
+  border: 0;
+  background: var(--light-blue);
+  color: black;
+  margin: 2rem 0.7rem;
+  padding: 0.2rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+  .homepage__button {
+    width: 50%;
+    margin: 1rem auto;
+    padding: unset;
+  }
+}

@@ -1,0 +1,45 @@
+:root {
+  --dark-blue: #679bf1;
+  --light-blue: #8ab9f1;
+  --light-yellow: #f8de7e;
+  --bright-yellow: #ffc40a;
+  --bg-black: rgb(22, 22, 22, 1);
+  --black: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* border: 1px solid blue; */
+}
+
+body {
+  position: relative;
+  display: block;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #8ab9f1;
+  overflow-y: scroll;
+}
+
+.background__img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg-black);
+}
