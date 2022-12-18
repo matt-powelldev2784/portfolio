@@ -34,6 +34,12 @@
     gap: 1.5rem;
   }
 }
+@media only screen and (max-width: 500px) {
+  .hompage__flexbox {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
 
 .homepage__flexbox_item1 {
   margin: 0.5rem;
