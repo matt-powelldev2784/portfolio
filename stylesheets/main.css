@@ -30,13 +30,6 @@ body {
   overflow-y: scroll;
 }
 
-.background__img {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
 .main {
   position: relative;
   margin: 0 auto;
