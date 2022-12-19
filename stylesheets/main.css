@@ -22,18 +22,9 @@
 
 body {
   position: relative;
-  display: block;
-  min-width: 100vw;
-  min-height: 100vh;
-  height: 100%;
-  background: #8ab9f1;
-  overflow-y: scroll;
-}
-
-.main {
-  position: relative;
   margin: 0 auto;
   min-height: 100vh;
   width: 100vw;
   background: var(--bg-black);
+  overflow-y: scroll;
 }
