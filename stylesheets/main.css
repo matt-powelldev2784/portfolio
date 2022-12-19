@@ -23,7 +23,6 @@
 body {
   position: relative;
   margin: 0 auto;
-  min-height: 100vh;
   width: 100vw;
   background: var(--bg-black);
   overflow-x: hidden;
