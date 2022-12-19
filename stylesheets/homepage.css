@@ -1,11 +1,12 @@
 .homepage__grid {
   position: relative;
   display: grid;
-  grid-template-rows: 3rem 1fr;
+  grid-template-rows: var(---nav-height) 1fr;
   grid-template-columns: 100vw;
   justify-content: center;
   align-items: start;
   width: 100vw;
+  overflow-y: auto;
 }
 
 .homepage__grid__item1 {
@@ -15,11 +16,12 @@
 .homepage__grid__item2 {
   display: block;
   height: 100%;
+  overflow-y: auto;
 }
 
 .hompage__flexbox {
   width: 100vw;
-  min-height: calc(100vh - 3rem);
+  min-height: calc(100vh - var(---nav-height));
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -31,13 +33,13 @@
   .hompage__flexbox {
     flex-direction: column;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 @media only screen and (max-width: 500px) {
   .hompage__flexbox {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 
@@ -50,10 +52,7 @@
 }
 
 .homepage_text_container {
-  transform: translateY(-20%);
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  transform: translateY(0%);
   min-width: 320px;
   margin: 0 auto;
 }
@@ -63,7 +62,7 @@
   display: block;
   top: 1rem;
   margin: 0rem 0.5rem;
-  color: white;
+  color: var(--light-blue);
   font-size: clamp(2rem, 5.58vw, 7rem);
   font-weight: 700;
   text-align: center;
@@ -100,7 +99,7 @@
 
 .homepage_text__h2 {
   margin: 0rem 0.5rem;
-  color: var(--light-blue);
+  color: var(--white);
   font-size: clamp(1.02rem, 2.85vw, 4rem);
   font-weight: 900;
   text-align: center;
@@ -117,34 +116,45 @@
   }
 }
 
+.homepage_text_p {
+  font-size: 1.4rem;
+  color: var(--white);
+  margin: 0rem 8vw;
+  text-align: center;
+  color: var(--light-blue);
+}
+@media only screen and (max-width: 992px) {
+  .homepage_text_p {
+    font-size: 1.2rem;
+    margin: 0rem 13vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .homepage_text_p {
+    font-size: 1rem;
+    margin: 0rem 5vw;
+  }
+}
+
 .homepage__portrait {
+  margin: 0 7vw 0 0;
   width: clamp(15rem, 32vw, 25rem);
 }
 @media only screen and (max-width: 992px) {
   .homepage__portrait {
+    margin: unset;
     width: clamp(17rem, 18vw, 25rem);
   }
 }
 @media only screen and (max-width: 500px) {
   .homepage__portrait {
-    width: clamp(12rem, 18vw, 25rem);
+    margin: unset;
+    width: clamp(15rem, 18vw, 25rem);
   }
 }
-
-.homepage__button {
-  display: block;
-  border: 0;
-  background: var(--light-blue);
-  color: black;
-  margin: 0rem 0.5rem;
-  padding: 0.2rem 1.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-@media only screen and (max-width: 992px) {
-  .homepage__button {
-    width: 50%;
-    margin: 0rem auto;
-    padding: unset;
+@media only screen and (max-width: 321px) {
+  .homepage__portrait {
+    margin: unset;
+    width: clamp(12rem, 18vw, 25rem);
   }
 }

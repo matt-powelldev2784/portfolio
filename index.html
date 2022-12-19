@@ -16,10 +16,30 @@
     />
     <link href="stylesheets/main.css" rel="stylesheet" />
     <link href="stylesheets/homepage.css" rel="stylesheet" />
+    <link href="stylesheets/nav.css" rel="stylesheet" />
     <script type="module" src="./js/main.js"></script>
   </head>
   <body id="body">
-    <nav class="main_nav"></nav>
+    <nav class="main_nav__grid">
+      <div class="main_nav__grid__item1">
+        <div class="main_nav__links_flexbox">
+          <div class="main_nav__links_flexbox__item">Home</div>
+          <div class="main_nav__links_flexbox__item">About Me</div>
+          <div class="main_nav__links_flexbox__item">Projects</div>
+          <div class="main_nav__links_flexbox__item">Contact</div>
+        </div>
+      </div>
+      <div class="main_nav__grid__item2">
+        <div class="main_nav__contact_flexbox">
+          <div class="main_nav__contact_flexbox__item">
+            <img class="main_nav__contact_img" src="./img/github_logo.svg" alt="GitHub Logo" />
+          </div>
+          <div class="main_nav__contact_flexbox__item">
+            <img class="main_nav__contact_img" src="./img/linked_in_logo.svg" alt="LinkedIn Logo" />
+          </div>
+        </div>
+      </div>
+    </nav>
     <header class="homepage__grid">
       <div class="homepage__grid__item1"></div>
       <div class="homepage__grid__item2">
@@ -28,8 +48,10 @@
             <div class="homepage_text_container">
               <h1 class="homepage_text__h1">MATTHEW <span class="homepage_text__h1_span">POWELL</span></h1>
               <h2 class="homepage_text__h2">FOUNDERS AND CODERS SHOWCASE</h2>
+              <p class="homepage_text_p">
+                Welcome to my showcase website. Please use the naviagtion buttons above to find out more!
+              </p>
             </div>
-            <button class="homepage__button">About Me &#62;</button>
           </div>
           <div class="homepage__flexbox_item2">
             <img
@@ -41,5 +63,12 @@
         </div>
       </div>
     </header>
+
+    <div class="test">
+      <div>
+        <h1 class="1homepage_text__h1">MATTHEW <span class="1homepage_text__h1_span">POWELL</span></h1>
+      </div>
+      <h2 class="1homepage_text__h2">FOUNDERS AND CODERS SHOWCASE</h2>
+    </div>
   </body>
 </html>

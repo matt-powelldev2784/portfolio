@@ -3,8 +3,10 @@
   --light-blue: #8ab9f1;
   --light-yellow: #f8de7e;
   --bright-yellow: #ffc40a;
+  --white: white;
   --bg-black: rgb(22, 22, 22, 1);
   --black: black;
+  ---nav-height: 4rem;
 }
 
 *,
@@ -15,8 +17,6 @@
   padding: 0;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
-  overflow-x: hidden;
-  overflow-y: auto;
   /* border: 1px solid blue; */
 }
 
@@ -26,5 +26,6 @@ body {
   min-height: 100vh;
   width: 100vw;
   background: var(--bg-black);
-  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
