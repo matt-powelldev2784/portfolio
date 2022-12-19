@@ -1,0 +1,17 @@
+.main_nav__mobile {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .main_nav__mobile {
+    display: block;
+    position: fixed;
+    width: 100vw;
+  }
+}
+
+.main_nav__mobile_img {
+  display: block;
+  width: 2rem;
+  height: auto;
+  margin: 0 auto;
+}

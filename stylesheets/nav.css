@@ -7,6 +7,11 @@
   width: 100vw;
   height: var(---nav-height);
 }
+@media only screen and (max-width: 500px) {
+  .main_nav__grid {
+    display: none;
+  }
+}
 
 .main_nav__grid__item1 {
   height: 100%;

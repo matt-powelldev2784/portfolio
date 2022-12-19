@@ -8,6 +8,11 @@
   width: 100vw;
   overflow-y: auto;
 }
+@media only screen and (max-width: 500px) {
+  .homepage__grid {
+    grid-template-rows: 2rem 1fr;
+  }
+}
 
 .homepage__grid__item1 {
   height: 100%;
