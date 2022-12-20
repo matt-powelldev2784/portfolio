@@ -27,7 +27,7 @@
 .hompage__flexbox {
   width: 100vw;
   min-height: calc(100vh - var(---nav-height));
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -156,11 +156,4 @@
     margin: unset;
     width: clamp(12rem, 18vw, 25rem);
   }
-}
-
-.icon {
-  width: 2rem;
-  height: 2rem;
-  fill: #546c75;
-  stroke: #546c75;
 }
