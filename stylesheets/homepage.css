@@ -10,7 +10,7 @@
 }
 @media only screen and (max-width: 500px) {
   .homepage__grid {
-    grid-template-rows: 2rem 1fr;
+    grid-template-rows: 3rem 1fr;
   }
 }
 

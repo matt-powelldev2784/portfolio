@@ -18,7 +18,7 @@
 @media only screen and (max-width: 500px) {
   .main_nav__links_flexbox {
     padding: 0.75rem 0.25rem;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
