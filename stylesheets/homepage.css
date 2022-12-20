@@ -157,3 +157,10 @@
     width: clamp(12rem, 18vw, 25rem);
   }
 }
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #546c75;
+  stroke: #546c75;
+}
