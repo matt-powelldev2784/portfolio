@@ -61,7 +61,7 @@
   display: block;
   top: 1rem;
   margin: 0rem 0.5rem;
-  color: var(--light-blue);
+  color: var(--dark-blue);
   font-size: clamp(2rem, 5.58vw, 7rem);
   font-weight: 700;
   text-align: center;
@@ -79,7 +79,7 @@
 }
 
 .homepage_text__h1_span {
-  color: var(--light-blue);
+  color: var(--dark-blue);
   font-size: clamp(2rem, 5.58vw, 7rem);
   font-weight: 700;
   text-align: center;
@@ -120,7 +120,7 @@
   color: var(--white);
   margin: 0rem 8vw;
   text-align: center;
-  color: var(--light-blue);
+  color: var(--dark-blue);
 }
 @media only screen and (max-width: 992px) {
   .homepage_text_p {

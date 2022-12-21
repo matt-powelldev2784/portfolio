@@ -1,0 +1,103 @@
+.about__container {
+  position: relative;
+  display: block;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 2rem auto;
+  background-color: var(--dark-blue);
+  -webkit-clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 95%);
+}
+
+.about_grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: auto;
+  padding: calc(var(---nav-height) + 2rem) 2rem 2rem 2rem;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.about_grid__item1 {
+}
+
+.about_grid__item2 {
+}
+
+/* ------------------------------------------------------------------------- */
+
+.about_card_flexbox_reverse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 992px) {
+  .about_card_flexbox_reverse {
+    gap: 2rem;
+  }
+}
+
+.about_card_flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 992px) {
+  .about_card_flexbox {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+.about_card_flexbox__item1 {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.about_card_flexbox__item2 {
+  width: clamp(28rem, 50vw, 60rem);
+  padding: clamp(0rem, 1vw, 2rem);
+  color: var(--white);
+}
+@media only screen and (max-width: 992px) {
+  .about_card_flexbox__item2 {
+    position: absolute;
+    width: 80%;
+    padding: 2rem;
+    background: var(--bg-black);
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+.about_img {
+  clip-path: circle(50% at 50% 50%);
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+@media only screen and (max-width: 992px) {
+  .about_img {
+    clip-path: unset;
+    width: 90vw;
+    height: clamp(20rem, 100vw, 40rem);
+    border: 3px solid green;
+  }
+}
+
+.about__h1 {
+  color: var(--bg-black);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-bottom: 0.5rem;
+}
+
+.about_p {
+}

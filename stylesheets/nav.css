@@ -6,6 +6,7 @@
   padding: 1rem 2rem;
   font-size: 1.2rem;
   background: var(--bg-black);
+  min-width: 320px;
   z-index: 999;
 }
 @media only screen and (max-width: 992px) {
@@ -49,7 +50,7 @@
   width: 2rem;
   height: 2rem;
   margin: 0 auto;
-  fill: var(--light-blue);
+  fill: var(--dark-blue);
 }
 @media only screen and (max-width: 321px) {
   .main_nav__img {
