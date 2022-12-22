@@ -4,25 +4,38 @@
   width: 100vw;
   min-height: 100vh;
   margin: 2rem auto;
-  background-color: var(--dark-blue);
-  -webkit-clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 95%);
-  clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 95%);
+  /* background: -webkit-linear-gradient(left top, var(--dark-blue), var(--light-blue));
+  background: -o-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
+  background: -moz-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
+  background: linear-gradient(to bottom right, var(--light-blue), var(--dark-blue));
+  -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%);
+  clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%); */
 }
 
 .about_grid {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
+  grid-template-columns: auto;
   grid-template-rows: auto;
-  padding: calc(var(---nav-height) + 2rem) 2rem 2rem 2rem;
+  padding: calc(var(---nav-height) + 2rem) 2rem calc(var(---nav-height) + 2rem) 2rem;
   justify-content: center;
   align-content: center;
   justify-items: center;
+  align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .about_grid {
+    grid-template-columns: repeat(auto-fill, 25rem);
+    padding: 1rem;
+  }
 }
 
-.about_grid__item1 {
+.about_grid__item {
 }
-
-.about_grid__item2 {
+@media only screen and (max-width: 992px) {
+  .about_grid__item {
+    width: 25rem;
+  }
 }
 
 /* ------------------------------------------------------------------------- */
@@ -32,12 +45,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 @media only screen and (max-width: 992px) {
   .about_card_flexbox_reverse {
-    gap: 2rem;
+    gap: 0rem;
   }
 }
 
@@ -45,13 +58,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 @media only screen and (max-width: 992px) {
   .about_card_flexbox {
-    flex-direction: row;
-    gap: 1rem;
+    gap: 0rem;
   }
 }
 
@@ -62,15 +74,19 @@
 
 .about_card_flexbox__item2 {
   width: clamp(28rem, 50vw, 60rem);
-  padding: clamp(0rem, 1vw, 2rem);
+  padding: 1rem;
   color: var(--white);
 }
 @media only screen and (max-width: 992px) {
   .about_card_flexbox__item2 {
-    position: absolute;
-    width: 80%;
-    padding: 2rem;
-    background: var(--bg-black);
+    width: 100vw;
+    padding: 0rem 1rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_card_flexbox__item2 {
+    width: 100vw;
+    padding: 0rem 1rem;
   }
 }
 
@@ -78,26 +94,36 @@
 
 .about_img {
   clip-path: circle(50% at 50% 50%);
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
 }
 @media only screen and (max-width: 992px) {
   .about_img {
-    clip-path: unset;
-    width: 90vw;
-    height: clamp(20rem, 100vw, 40rem);
-    border: 3px solid green;
+    display: none;
   }
 }
 
 .about__h1 {
-  color: var(--bg-black);
-  font-size: 1.8rem;
+  color: var(--light-blue);
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   padding-bottom: 0.5rem;
 }
+@media only screen and (max-width: 992px) {
+  .about__h1 {
+    text-align: center;
+  }
+}
 
 .about_p {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+@media only screen and (max-width: 992px) {
+  .about_p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
