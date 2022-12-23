@@ -4,13 +4,6 @@
   width: 100vw;
   min-height: 100vh;
   margin: 2rem auto;
-
-  /* background: -webkit-linear-gradient(left top, var(--dark-blue), var(--light-blue));
-  background: -o-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
-  background: -moz-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
-  background: linear-gradient(to bottom right, var(--light-blue), var(--dark-blue));
-  -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%);
-  clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%); */
 }
 
 .about_flexbox {
@@ -35,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
   border-radius: 1rem;
 }
