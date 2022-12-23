@@ -4,6 +4,7 @@
   width: 100vw;
   min-height: 100vh;
   margin: 2rem auto;
+
   /* background: -webkit-linear-gradient(left top, var(--dark-blue), var(--light-blue));
   background: -o-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
   background: -moz-linear-gradient(bottom right, var(--dark-blue), var(--light-blue));
@@ -30,6 +31,29 @@
 
 /* ------------------------------------------------------------------------- */
 
+.about_card_flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 992px) {
+  .about_card_flexbox {
+    gap: 0rem;
+    margin: 0 4vw;
+    background: var(--bg-black-secondary);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_card_flexbox {
+    gap: 0rem;
+    margin: 0;
+    background: var(--bg-black-secondary);
+  }
+}
+
 .about_card_flexbox_reverse {
   display: flex;
   justify-content: center;
@@ -37,23 +61,20 @@
   flex-direction: row-reverse;
   gap: 3rem;
   flex-wrap: wrap;
+  border-radius: 1rem;
 }
 @media only screen and (max-width: 992px) {
   .about_card_flexbox_reverse {
     gap: 0rem;
+    margin: 0 4vw;
+    background: var(--bg-black-secondary);
   }
 }
-
-.about_card_flexbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-@media only screen and (max-width: 992px) {
-  .about_card_flexbox {
+@media only screen and (max-width: 500px) {
+  .about_card_flexbox_reverse {
     gap: 0rem;
+    margin: 0;
+    background: var(--bg-black-secondary);
   }
 }
 
@@ -95,19 +116,26 @@
   }
 }
 
-.about_card__image_gradient {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
 .about__h1 {
   color: var(--light-blue);
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   padding-bottom: 0.5rem;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: 992px) {
+  .about__h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about__h1 {
+    font-size: 1.2rem;
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
 }
 
 .about_p {
@@ -119,5 +147,12 @@
 @media only screen and (max-width: 992px) {
   .about_p {
     font-size: 1rem;
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_p {
+    font-size: 0.9rem;
+    padding: 0rem;
   }
 }
