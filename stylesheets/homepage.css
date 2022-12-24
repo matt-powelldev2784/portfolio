@@ -32,18 +32,17 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 @media only screen and (max-width: 992px) {
   .hompage__flexbox {
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
   }
 }
 
 .homepage__flexbox_item1 {
-  margin: 0.5rem;
-  width: 60%;
+  width: 58%;
 }
 @media only screen and (max-width: 992px) {
   .homepage__flexbox_item1 {
@@ -76,7 +75,7 @@
 .homepage_text__h2 {
   margin: 0rem 0.5rem;
   color: var(--white);
-  font-size: clamp(1.02rem, 2.85vw, 4rem);
+  font-size: clamp(1.02rem, 2.83vw, 4rem);
   font-weight: 900;
   width: max-content;
   margin: 0 auto;

@@ -1,11 +1,10 @@
 :root {
   --dark-blue: #679bf1;
   --light-blue: #8ab9f1;
-  --light-yellow: #f8de7e;
-  --bright-yellow: #ffc40a;
+  --light-grey: #f1f1f1;
+  --dark-grey: #989795;
   --white: white;
   --bg-black: #161616;
-  --bg-black1: rgb(22, 22, 22, 1);
   --bg-black-secondary: #202020;
   --black: black;
   ---nav-height: 4rem;
@@ -28,4 +27,5 @@ body {
   margin: 0 auto;
   width: 100vw;
   background: var(--bg-black);
+  overflow-y: auto !important;
 }

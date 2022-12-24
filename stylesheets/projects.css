@@ -1,0 +1,118 @@
+.projects_container {
+  position: relative;
+  display: block;
+  width: 100vw;
+  min-height: calc(100vh - var(---nav-height));
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.projects__nav_left {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.projects__nav_right {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.projects__nav_arrrow {
+  width: 4vw;
+  height: 4vw;
+  fill: var(--dark-blue);
+}
+
+.projects__flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: calc(100vh - var(---nav-height));
+  overflow: hidden;
+}
+@media only screen and (max-width: 992px) {
+  .projects__flexbox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.projects_flexbox__item {
+  color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.projects_carosel__container {
+  width: 100vw;
+  height: calc(100vh - var(---nav-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 8vw;
+}
+@media only screen and (max-width: 992px) {
+  .projects_carosel__container {
+  }
+}
+
+.projects_carosel__flexbox__item1 {
+  /* min-width: 18rem;
+  max-width: 25rem; */
+  width: 42%;
+}
+
+.projects_carosel_img {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.projects_carosel__flexbox__item2 {
+  /* max-width: 30rem; */
+  width: 47%;
+}
+
+.projects__h1 {
+  color: var(--dark-blue);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1vmax;
+}
+@media only screen and (max-width: 992px) {
+  .projects__h1 {
+    text-align: center;
+  }
+}
+
+.projects_p {
+  font-size: 1.1rem;
+  color: var(--white);
+
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0.4rem;
+}
+
+.projects__tech_stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.projects__icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0.4rem;
+}
