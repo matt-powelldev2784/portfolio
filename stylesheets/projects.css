@@ -67,7 +67,7 @@
 }
 @media only screen and (max-width: 500px) {
   .projects_nav_dots {
-    bottom: 1.5rem;
+    bottom: 3rem;
   }
 }
 
