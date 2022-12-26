@@ -115,7 +115,6 @@
   align-items: center;
   gap: 4vw;
   padding: 4vw;
-  border: 1px solid red;
 }
 @media only screen and (max-width: 992px) {
   .projects_carosel__container {
@@ -131,6 +130,7 @@
 @media only screen and (max-width: 321px) {
   .projects_carosel__container {
     justify-content: flex-start;
+    border: 3px solid green;
   }
 }
 
