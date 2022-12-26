@@ -55,6 +55,11 @@
     fill: var(--dark-blue);
   }
 }
+@media only screen and (max-width: 450px) {
+  .projects__nav_arrrow_mobile {
+    display: none;
+  }
+}
 
 .projects_nav_dots {
   width: 100%;
