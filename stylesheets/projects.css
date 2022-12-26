@@ -67,7 +67,7 @@
 }
 @media only screen and (max-width: 500px) {
   .projects_nav_dots {
-    bottom: 3rem;
+    bottom: 2.5rem;
   }
 }
 
@@ -222,9 +222,10 @@
     margin: 0;
   }
 }
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320px) {
   .projects__tech_stack {
     display: none;
+    opacity: 0;
   }
 }
 
