@@ -1,0 +1,129 @@
+.contact__grid_container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100vw;
+  min-height: calc(100vh - var(---nav-height));
+  width: 100vw;
+  border: 3px solid green;
+}
+
+.contact__flexbox {
+  position: relative;
+  margin: 0 auto;
+  max-width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 992px) {
+  .contact__flexbox {
+    flex-direction: column;
+    padding: 3rem 0rem;
+  }
+}
+
+.contact__image {
+  max-height: 80%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 1rem 0 0 1rem;
+}
+@media only screen and (max-width: 992px) {
+  .contact__image {
+    width: 80vw;
+    height: 18rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+
+.contact__form {
+  max-height: 80%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--bg-black-secondary);
+  border-radius: 0 1rem 1rem 0;
+}
+@media only screen and (max-width: 992px) {
+  .contact__form {
+    width: 80vw;
+    height: 40rem;
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+.contact__form_img {
+  fill: var(--dark-blue);
+  padding: 1rem;
+  height: 8rem;
+}
+
+.contact__input_container {
+  position: relative;
+  margin: 1rem 4rem;
+}
+
+.contact__input_label {
+  position: absolute;
+  width: calc(100% - 1rem);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.5rem 0 0 1.2rem;
+  background: var(--bg-black);
+  color: var(--dark-blue);
+  border-radius: 1rem 0 0 0;
+}
+
+.contact__input {
+  display: inline-block;
+  appearance: none;
+  border: 0;
+  width: 100%;
+  padding: 1.1rem 0 0rem 1.2rem;
+  height: 4rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background: var(--bg-black);
+  caret-color: var(--white);
+  color: var(--white);
+  border-radius: 1rem;
+}
+
+.contact__input_textarea {
+  display: inline-block;
+  appearance: none;
+  border: 0;
+  resize: none;
+  width: 100%;
+  padding: 1.7rem 1.2rem 0rem 1.2rem;
+  height: 8rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background: var(--bg-black);
+  caret-color: var(--white);
+  color: var(--white);
+  border-radius: 1rem;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.contact__submit_button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.25rem 2rem;
+  border: 0;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: var(--dark-blue);
+  color: var(--white);
+}

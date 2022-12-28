@@ -19,6 +19,7 @@
     <link href="stylesheets/nav.css" rel="stylesheet" />
     <link href="stylesheets/about.css" rel="stylesheet" />
     <link href="stylesheets/projects.css" rel="stylesheet" />
+    <link href="stylesheets/contact.css" rel="stylesheet" />
     <script type="module" src="./js/main.js"></script>
   </head>
   <body id="body">
@@ -249,8 +250,31 @@
     <!--.......................................................................-->
     <!--.......................................................................-->
 
-    <section class="contact_container">
-      <form></form>
+    <section class="contact__grid_container">
+      <article class="contact__flexbox">
+        <img class="contact__image" src="./img/brain_atari.jpg" alt="Image of brain plugged into Atari" />
+
+        <form class="contact__form">
+          <svg class="contact__form_img">
+            <use xlink:href="./img/svg_sprites/contact_icon_sprite.svg#contact_icon"></use>
+          </svg>
+          <div class="contact__input_container">
+            <label class="contact__input_label" for="name">FULL NAME</label>
+            <input class="contact__input" type="text" id="name" name="name" />
+          </div>
+          <div class="contact__input_container">
+            <label class="contact__input_label" for="email">EMAIL</label>
+            <input class="contact__input" type="email" id="email" name="email" />
+          </div>
+          <div class="contact__input_container">
+            <label class="contact__input_label" for="message">MESSAGE</label>
+            <textarea class="contact__input_textarea" id="message" name="message"></textarea>
+          </div>
+          <div class="contact__input_container">
+            <button class="contact__submit_button" type="submit">Submit</button>
+          </div>
+        </form>
+      </article>
     </section>
   </body>
 </html>
