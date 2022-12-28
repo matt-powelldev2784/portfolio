@@ -3,8 +3,13 @@
   display: block;
   width: 100vw;
   min-height: calc(100vh - var(---nav-height));
-  margin: 2rem auto;
+  margin: 3rem auto;
   overflow: hidden;
+}
+@media only screen and (max-width: 500px) {
+  .projects_container {
+    margin: 0rem auto;
+  }
 }
 
 .projects__nav_left {

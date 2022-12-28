@@ -3,7 +3,7 @@
   display: block;
   width: 100vw;
   min-height: calc(100vh - var(---nav-height));
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .about_flexbox {
@@ -11,9 +11,11 @@
   gap: 6rem;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 3rem auto;
 }
 @media only screen and (max-width: 500px) {
   .about_flexbox {
+    margin: 0.5rem auto;
     gap: 1rem;
   }
 }
