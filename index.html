@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link href="stylesheets/main.css" rel="stylesheet" />
+    <link href="stylesheets/grid_sections.css" rel="stylesheet" />
     <link href="stylesheets/homepage.css" rel="stylesheet" />
     <link href="stylesheets/nav.css" rel="stylesheet" />
     <link href="stylesheets/about.css" rel="stylesheet" />
@@ -55,6 +56,11 @@
       <div class="contact_nav__flexbox">
         <div class="contact_nav___flexbox__item">
           <svg class="main_nav__img">
+            <use xlink:href="./img/svg_sprites/email_icon_sprite.svg#email_icon"></use>
+          </svg>
+        </div>
+        <div class="contact_nav___flexbox__item">
+          <svg class="main_nav__img">
             <use xlink:href="./img/svg_sprites/github_logo_sprite.svg#github_logo"></use>
           </svg>
         </div>
@@ -74,9 +80,9 @@
     <!--.......................................................................-->
     <!--.......................................................................-->
     <!--.......................................................................-->
-    <header class="homepage__grid">
-      <div class="homepage__grid__item1"></div>
-      <div class="homepage__grid__item2">
+    <header class="page_grid homepage__section">
+      <div class="page_grid__item1"></div>
+      <div class="page_grid__item2">
         <div class="hompage__flexbox">
           <div class="homepage__flexbox_item1">
             <h1 class="homepage_text__h1">MATTHEW POWELL</h1>
@@ -95,189 +101,214 @@
     <!--.......................................................................-->
     <!--.......................................................................-->
     <!--.......................................................................-->
-
-    <section class="about__container">
-      <div class="about_flexbox">
-        <article class="about_flexbox__item">
-          <div class="about_card_flexbox">
-            <div class="about_card_flexbox__item1">
-              <img class="about_img" src="./img/about/balloon_face.jpg" alt="Face hideen by balloon" />
-            </div>
-            <div class="about_card_flexbox__item2">
-              <h1 class="about__h1">About Me</h1>
-              <p class="about_p">
-                Hi, my name is Matthew Powell, you may have noticed me posing at the top of the page! I'm
-                currently working as a print production manager for a company which provides technology based
-                distribution solutions for the medical and telecommunications industry. I'm looking for a
-                career change as the printing industry is a shrinking market which means the job security
-                isn't great. I recently became a first time dad and enjoy spending time with my daughter. I
-                like to keep fit, and I am a keen swimmer and footballer. I recently met a previous Founders
-                and Coders graduate who put me in touch.
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <article class="about_flexbox__item">
-          <div class="about_card_flexbox_reverse">
-            <div class="about_card_flexbox__item1">
-              <img class="about_img" src="./img/about/code.jpg" alt="Blurred image of code" />
-            </div>
-            <div class="about_card_flexbox__item2">
-              <h1 class="about__h1">Why I Want To Become <wbr />A Web Developer</h1>
-              <p class="about_p">
-                I have always been interested in technology and have worked with computers since a young age,
-                when the command line was the only way to do things! I started learning JavaScript in 2020
-                using Udemy and other online resources. I found that I really enjoyed programming and web
-                design and decided to set about finding a way to get into a professional role. I genuinely
-                enjoy the challenge of learning new technologies and get a buzz when solving problems or
-                completing new features in my projects.
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <article class="about_flexbox__item">
-          <div class="about_card_flexbox">
-            <div class="about_card_flexbox__item1">
-              <img class="about_img" src="./img/about/mac_hands.jpg" alt="Mac on desk with arms typing" />
-            </div>
-            <div class="about_card_flexbox__item2">
-              <h1 class="about__h1">Previous Experience</h1>
-              <p class="about_p">
-                It's amazing to think 2 years ago I didn't know a single bit of JavaScript syntax. Since then
-                I have developed full stack projects using JavaScript, React, Redux, TypeScript and Node JS.
-                It's been an exciting and interesting journey which is on-going. My 3 biggest challenges so
-                far have been implementing the React Drag and Drop Library in one of my projects, migrating
-                one of my projects from React Context to Redux and migrating the same project to TypeScript.
-                My background in the print industry means I have substantial knowledge about fonts, images and
-                graphics. I also have experience using Photoshop, Illustrator and other Adobe Creative Cloud
-                Applications.
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <article class="about_flexbox__item">
-          <div class="about_card_flexbox_reverse">
-            <div class="about_card_flexbox__item1">
-              <img
-                class="about_img"
-                src="./img/about/founders_coders_logo.svg"
-                alt="Founders and Coders Logo"
-              />
-            </div>
-            <div class="about_card_flexbox__item2">
-              <h1 class="about__h1">What have the Founders and Coders Projects Taught Me?</h1>
-              <p class="about_p">
-                The Founders and Coders projects have given me a chance to focus more on my design skills.
-                Previously I have paid less attention to this and more on learning the coding syntax and
-                concepts. It has also allowed me to take a deeper dive into some of the Vanilla JavaScript
-                bits I missed first time round.
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!--.......................................................................-->
-    <!--.......................................................................-->
-    <!--.......................................................................-->
-    <section class="projects_container">
-      <div class="projects__nav_left">
-        <svg class="projects__nav_arrrow">
-          <use xlink:href="./img/svg_sprites/left_arrow_sprite.svg#left_arrow"></use>
-        </svg>
-      </div>
-      <div class="projects__nav_right">
-        <svg class="projects__nav_arrrow">
-          <use xlink:href="./img/svg_sprites/right_arrow_sprite.svg#right_arrow"></use>
-        </svg>
-      </div>
-      <div class="projects_nav_dots">
-        <div class="projects_nav_dot projects_nav_dot_active">.</div>
-        <div class="projects_nav_dot">.</div>
-        <div class="projects_nav_dot">.</div>
-        <div class="projects_nav_dot">.</div>
-        <div class="projects_nav_dot">.</div>
-      </div>
-      <article class="projects__flexbox">
-        <div class="projects_flexbox__item">
-          <div class="projects_carosel__container">
-            <div class="projects_carosel__flexbox__item1">
-              <!--.......................................................................-->
-              <div class="projects__nav_left">
-                <svg class="projects__nav_arrrow_mobile">
-                  <use xlink:href="./img/svg_sprites/left_arrow_sprite.svg#left_arrow"></use>
-                </svg>
+    <section class="page_grid about__section">
+      <div class="page_grid__item1"></div>
+      <div class="page_grid__item2">
+        <div class="about_flexbox">
+          <article class="about_flexbox__item">
+            <div class="about_card_flexbox">
+              <div class="about_card_flexbox__item1">
+                <img class="about_img" src="./img/about/balloon_face.jpg" alt="Face hideen by balloon" />
               </div>
-              <div class="projects__nav_right">
-                <svg class="projects__nav_arrrow_mobile">
-                  <use xlink:href="./img/svg_sprites/right_arrow_sprite.svg#right_arrow"></use>
-                </svg>
+              <div class="about_card_flexbox__item2">
+                <h1 class="about__h1">About Me</h1>
+                <p class="about_p">
+                  Hi, my name is Matthew Powell, you may have noticed me posing at the top of the page! I'm
+                  currently working as a print production manager for a company which provides technology
+                  based distribution solutions for the medical and telecommunications industry. I'm looking
+                  for a career change as the printing industry is a shrinking market which means the job
+                  security isn't great. I recently became a first time dad and enjoy spending time with my
+                  daughter. I like to keep fit, and I am a keen swimmer and footballer. I recently met a
+                  previous Founders and Coders graduate who put me in touch.
+                </p>
               </div>
-
-              <!--.......................................................................-->
-              <img class="projects_carosel_img" src="./img/projects/gallery.jpg" />
             </div>
-            <div class="projects_carosel__flexbox__item2">
-              <h1 class="projects__h1">PROJECT GALLERY</h1>
-              <p class="projects_p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It has survived not only five
-                centuries.
-              </p>
-              <div class="projects__tech_stack">
-                <img class="projects__icon" src="./img/svg_sprites/html_icon.svg" alt="HTML Icon" />
-                <img class="projects__icon" src="./img/svg_sprites/css_icon.svg" alt="CSS Icon" />
-                <img class="projects__icon" src="./img/svg_sprites/js_icon.svg" alt="JavaScript Icon" />
-                <img class="projects__icon" src="./img/svg_sprites/nodejs_icon.svg" alt="NodeJS Icon" />
-                <img class="projects__icon" src="./img/svg_sprites/react_icon.svg" alt="React Icon" />
+          </article>
+
+          <article class="about_flexbox__item">
+            <div class="about_card_flexbox_reverse">
+              <div class="about_card_flexbox__item1">
+                <img class="about_img" src="./img/about/code.jpg" alt="Blurred image of code" />
+              </div>
+              <div class="about_card_flexbox__item2">
+                <h1 class="about__h1">Why I Want To Become <wbr />A Web Developer</h1>
+                <p class="about_p">
+                  I have always been interested in technology and have worked with computers since a young
+                  age, when the command line was the only way to do things! I started learning JavaScript in
+                  2020 using Udemy and other online resources. I found that I really enjoyed programming and
+                  web design and decided to set about finding a way to get into a professional role. I
+                  genuinely enjoy the challenge of learning new technologies and get a buzz when solving
+                  problems or completing new features in my projects.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="about_flexbox__item">
+            <div class="about_card_flexbox">
+              <div class="about_card_flexbox__item1">
+                <img class="about_img" src="./img/about/mac_hands.jpg" alt="Mac on desk with arms typing" />
+              </div>
+              <div class="about_card_flexbox__item2">
+                <h1 class="about__h1">Previous Experience</h1>
+                <p class="about_p">
+                  It's amazing to think 2 years ago I didn't know a single bit of JavaScript syntax. Since
+                  then I have developed full stack projects using JavaScript, React, Redux, TypeScript and
+                  Node JS. It's been an exciting and interesting journey which is on-going. My 3 biggest
+                  challenges so far have been implementing the React Drag and Drop Library in one of my
+                  projects, migrating one of my projects from React Context to Redux and migrating the same
+                  project to TypeScript. My background in the print industry means I have substantial
+                  knowledge about fonts, images and graphics. I also have experience using Photoshop,
+                  Illustrator and other Adobe Creative Cloud Applications.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="about_flexbox__item">
+            <div class="about_card_flexbox_reverse">
+              <div class="about_card_flexbox__item1">
                 <img
-                  class="projects__icon"
-                  src="./img/svg_sprites/typescript_icon.svg"
-                  alt="TypeScript Icon"
+                  class="about_img"
+                  src="./img/about/founders_coders_logo.svg"
+                  alt="Founders and Coders Logo"
                 />
-                <img class="projects__icon" src="./img/svg_sprites/redux_icon.svg" alt="Redux Icon" />
+              </div>
+              <div class="about_card_flexbox__item2">
+                <h1 class="about__h1">What have the Founders and Coders Projects Taught Me?</h1>
+                <p class="about_p">
+                  The Founders and Coders projects have given me a chance to focus more on my design skills.
+                  Previously I have paid less attention to this and more on learning the coding syntax and
+                  concepts. It has also allowed me to take a deeper dive into some of the Vanilla JavaScript
+                  bits I missed first time round.
+                </p>
               </div>
             </div>
-          </div>
+          </article>
         </div>
-      </article>
+      </div>
     </section>
     <!--.......................................................................-->
     <!--.......................................................................-->
     <!--.......................................................................-->
-
-    <section class="contact__grid_container">
-      <article class="contact__flexbox">
-        <div class="contact__image_conatiner">
-          <div class="contact__image_overlay"></div>
-          <img class="contact__image" src="./img/brain_atari.jpg" alt="Image of brain plugged into Atari" />
-        </div>
-        <form class="contact__form">
-          <svg class="contact__form_img">
-            <use xlink:href="../img/svg_sprites/message_icon_sprite.svg#message_icon"></use>
+    <section class="page_grid projects__section">
+      <div class="page_grid__item1"></div>
+      <div class="page_grid__item2">
+        <div class="projects__nav_left">
+          <svg class="projects__nav_arrrow">
+            <use xlink:href="./img/svg_sprites/left_arrow_sprite.svg#left_arrow"></use>
           </svg>
-          <p class="contact__form_text">Leave me a message!</p>
-          <div class="contact__input_container">
-            <label class="contact__input_label" for="name">FULL NAME</label>
-            <input class="contact__input" type="text" id="name" name="name" />
+        </div>
+        <div class="projects__nav_right">
+          <svg class="projects__nav_arrrow">
+            <use xlink:href="./img/svg_sprites/right_arrow_sprite.svg#right_arrow"></use>
+          </svg>
+        </div>
+        <div class="projects_nav_dots">
+          <div class="projects_nav_dot projects_nav_dot_active">.</div>
+          <div class="projects_nav_dot">.</div>
+          <div class="projects_nav_dot">.</div>
+          <div class="projects_nav_dot">.</div>
+          <div class="projects_nav_dot">.</div>
+        </div>
+        <article class="projects__flexbox">
+          <div class="projects_flexbox__item">
+            <div class="projects_carosel__container">
+              <div class="projects_carosel__flexbox__item1">
+                <!--.......................................................................-->
+                <div class="projects__nav_left">
+                  <svg class="projects__nav_arrrow_mobile">
+                    <use xlink:href="./img/svg_sprites/left_arrow_sprite.svg#left_arrow"></use>
+                  </svg>
+                </div>
+                <div class="projects__nav_right">
+                  <svg class="projects__nav_arrrow_mobile">
+                    <use xlink:href="./img/svg_sprites/right_arrow_sprite.svg#right_arrow"></use>
+                  </svg>
+                </div>
+
+                <!--.......................................................................-->
+                <img class="projects_carosel_img" src="./img/projects/gallery.jpg" />
+              </div>
+              <div class="projects_carosel__flexbox__item2">
+                <h1 class="projects__h1">PROJECT GALLERY</h1>
+                <p class="projects_p">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book. It has survived not only five
+                  centuries.
+                </p>
+                <div class="projects__tech_stack">
+                  <img class="projects__icon" src="./img/svg_sprites/html_icon.svg" alt="HTML Icon" />
+                  <img class="projects__icon" src="./img/svg_sprites/css_icon.svg" alt="CSS Icon" />
+                  <img class="projects__icon" src="./img/svg_sprites/js_icon.svg" alt="JavaScript Icon" />
+                  <img class="projects__icon" src="./img/svg_sprites/nodejs_icon.svg" alt="NodeJS Icon" />
+                  <img class="projects__icon" src="./img/svg_sprites/react_icon.svg" alt="React Icon" />
+                  <img
+                    class="projects__icon"
+                    src="./img/svg_sprites/typescript_icon.svg"
+                    alt="TypeScript Icon"
+                  />
+                  <img class="projects__icon" src="./img/svg_sprites/redux_icon.svg" alt="Redux Icon" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="contact__input_container">
-            <label class="contact__input_label" for="email">EMAIL</label>
-            <input class="contact__input" type="email" id="email" name="email" />
+        </article>
+      </div>
+    </section>
+    <!--.......................................................................-->
+    <!--.......................................................................-->
+    <!--.......................................................................-->
+    <section class="page_grid contact__section">
+      <div class="page_grid__item1"></div>
+      <div class="page_grid__item2">
+        <article class="contact__flexbox">
+          <!--.......................................................................-->
+
+          <div class="contact__card">
+            <svg class="contact__card_img">
+              <use xlink:href="./img/svg_sprites/email_icon_sprite.svg#email_icon"></use>
+            </svg>
+            <a class="contact__card_link" href="mailto:matt.powell2784@gmail.com">
+              <p class="contact__card_title">Email</p>
+              <p class="contact__card_text">matt.powell2784@gmail.com</p>
+            </a>
           </div>
-          <div class="contact__input_container">
-            <label class="contact__input_label" for="message">MESSAGE</label>
-            <textarea class="contact__input_textarea" id="message" name="message"></textarea>
+
+          <!--.......................................................................-->
+          <div class="contact__card">
+            <svg class="contact__card_img">
+              <use xlink:href="./img/svg_sprites/github_logo_sprite.svg#github_logo"></use>
+            </svg>
+            <a class="contact__card_link" href="https://github.com/matt-powelldev2784">
+              <p class="contact__card_title">GitHub</p>
+              <p class="contact__card_text">github.com/matt-powelldev2784</p>
+            </a>
           </div>
-          <div class="contact__input_container">
-            <button class="contact__submit_button" type="submit">Submit</button>
+          <!--.......................................................................-->
+          <div class="contact__card">
+            <svg class="contact__card_img">
+              <use xlink:href="./img/svg_sprites/linked_in_logo_sprite.svg#linked_in_logo"></use>
+            </svg>
+            <a class="contact__item_container" href="https://www.linkedin.com/in/matt-powell2784">
+              <p class="contact__card_title">LinkedIn</p>
+              <p class="contact__card_text">linkedin.com/in/matt-powell2784</p>
+            </a>
           </div>
-        </form>
-      </article>
+          <!--.......................................................................-->
+          <div class="contact__card">
+            <svg class="contact__card_img">
+              <use xlink:href="./img/svg_sprites/codewars_logo_sprite.svg#codewars_logo"></use>
+            </svg>
+            <a class="contact__item_container" href="https://www.codewars.com/users/matt.powell2784">
+              <p class="contact__card_title">Codewars</p>
+              <p class="contact__card_text">codewars.com/users/matt.powell2784</p>
+            </a>
+          </div>
+          <!--.......................................................................-->
+        </article>
+      </div>
     </section>
   </body>
 </html>

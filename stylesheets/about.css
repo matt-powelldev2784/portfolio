@@ -1,17 +1,10 @@
-.about__container {
-  position: relative;
-  display: block;
-  width: 100vw;
-  min-height: calc(100vh - var(---nav-height));
-  margin: 3rem auto;
-}
-
 .about_flexbox {
   display: flex;
   gap: 6rem;
   justify-content: center;
   flex-wrap: wrap;
   margin: 3rem auto;
+  min-height: calc(100vh - var(---nav-height));
 }
 @media only screen and (max-width: 500px) {
   .about_flexbox {

@@ -22,6 +22,14 @@
   /* border: 1px solid blue; */
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: unset;
+  text-decoration: none;
+}
+
 body {
   position: relative;
   margin: 0 auto;
