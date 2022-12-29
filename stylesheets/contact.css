@@ -5,7 +5,7 @@
   grid-template-columns: 100vw;
   min-height: calc(100vh - var(---nav-height));
   width: 100vw;
-  border: 2px solid blue;
+  margin-bottom: 3rem;
 }
 
 .contact__flexbox {
@@ -16,7 +16,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 3px solid green;
 }
 @media only screen and (max-width: 992px) {
   .contact__flexbox {
@@ -27,6 +26,7 @@
   .contact__flexbox {
     flex-direction: column;
     width: 100vw;
+    margin-top: 5rem;
   }
 }
 
@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width: 500px) {
   .contact__image_conatiner {
-    width: 80vw;
+    width: 90%;
     border-radius: 1rem 1rem 0 0;
   }
 }
@@ -116,8 +116,8 @@
 @media only screen and (max-width: 500px) {
   .contact__form {
     width: 100vw;
-    height: 30rem;
-    min-height: 30rem;
+    height: 27rem;
+    min-height: 27rem;
     padding: 1rem;
     justify-content: flex-start;
   }
