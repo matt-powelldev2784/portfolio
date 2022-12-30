@@ -3,8 +3,13 @@
 }
 @media only screen and (max-width: 480px) {
   .contact__container {
-    margin: 2rem 0;
+    margin: 3rem 0;
     width: 100vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact__container {
+    margin: 1.5rem 0;
   }
 }
 
