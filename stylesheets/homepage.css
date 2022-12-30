@@ -16,11 +16,6 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 500px) {
-  .hompage__flexbox {
-    justify-content: flex-start;
-  }
-}
 @media only screen and (max-device-width: 321px) {
   .hompage__flexbox {
     justify-content: flex-start;
