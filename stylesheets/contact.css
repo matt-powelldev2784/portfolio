@@ -28,6 +28,11 @@
     padding: 0;
     margin: 0;
     min-width: 320px;
+    min-height: calc(100vh - var(---nav-height-mob-small));
+  }
+}
+@media only screen and (max-width: 321px) {
+  .contact__flexbox {
     min-height: calc(100vh - var(---nav-height-mob));
   }
 }

@@ -19,6 +19,13 @@
 @media only screen and (max-width: 480px) {
   .hompage__flexbox {
     justify-content: center;
+    min-height: calc(100vh - var(---nav-height-mob-small));
+    border: 3px solid green;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .hompage__flexbox {
+    justify-content: center;
     min-height: calc(100vh - var(---nav-height-mob));
     border: 3px solid green;
   }
