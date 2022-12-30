@@ -19,4 +19,6 @@ pages.forEach((page) => {})
 const test = projects.getBoundingClientRect()
 console.log('test', test)
 
-window.scroll(0, test.y + 35)
+// window.scroll(0, test.y + 35)
+
+projects.scrollIntoView({ block: 'start', behavior: 'smooth', inline: 'nearest' })

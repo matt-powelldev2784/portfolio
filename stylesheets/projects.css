@@ -82,6 +82,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  border: 3px solid green;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {
