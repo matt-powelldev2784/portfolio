@@ -55,11 +55,16 @@
 .projects_nav_dots {
   width: 100%;
   position: absolute;
-  bottom: 1rem;
+  bottom: 3rem;
   color: var(--dark-blue);
   font-size: 5rem;
   text-align: center;
   letter-spacing: 0.25rem;
+}
+@media only screen and (max-width: 992px) {
+  .projects_nav_dots {
+    bottom: 1rem;
+  }
 }
 @media only screen and (max-width: 500px) {
   .projects_nav_dots {
@@ -68,7 +73,7 @@
 }
 @media only screen and (max-width: 321px) {
   .projects_nav_dots {
-    bottom: 2.1rem;
+    bottom: 0.5rem;
   }
 }
 
@@ -91,7 +96,7 @@
   align-items: center;
   gap: 1rem;
   min-height: calc(100vh - var(---nav-height));
-  overflow: hidden;
+  margin-top: -3rem;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {
@@ -99,6 +104,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: -2rem;
   }
 }
 
