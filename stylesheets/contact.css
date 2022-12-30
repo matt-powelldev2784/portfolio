@@ -3,7 +3,7 @@
 }
 @media only screen and (max-width: 480px) {
   .contact__container {
-    margin: 0;
+    margin: 2rem 0;
     width: 100vw;
   }
 }
@@ -24,11 +24,11 @@
   .contact__flexbox {
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: flex-start;
     gap: 1rem;
     padding: 0;
     margin: 0;
     min-width: 320px;
-    height: calc(100vh + 2rem);
   }
 }
 @media only screen and (max-width: 321px) {
@@ -39,7 +39,6 @@
     padding: 0;
     margin: 0;
     min-width: 320px;
-    height: calc(100vh - 6.5rem);
   }
 }
 
