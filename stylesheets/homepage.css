@@ -112,7 +112,7 @@
     width: clamp(18rem, 18vw, 25rem);
   }
 }
-@media only screen and (min-device-width: 320px) {
+@media only screen and (max-device-width: 320px) {
   .homepage__portrait {
     width: clamp(10rem, 17vw, 25rem);
   }
