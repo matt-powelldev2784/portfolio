@@ -21,6 +21,11 @@
     margin-top: -1rem;
   }
 }
+@media only screen and (max-width: 321px) {
+  .hompage__flexbox {
+    margin-top: 1rem;
+  }
+}
 
 .homepage__flexbox_item1 {
   width: 58%;
@@ -109,6 +114,6 @@
 }
 @media only screen and (max-width: 321px) {
   .homepage__portrait {
-    width: clamp(12rem, 17vw, 25rem);
+    width: clamp(10rem, 17vw, 25rem);
   }
 }
