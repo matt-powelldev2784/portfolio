@@ -109,12 +109,11 @@
 }
 @media only screen and (max-width: 500px) {
   .homepage__portrait {
-    width: clamp(18rem, 18vw, 25rem);
+    width: clamp(17rem, 18vw, 25rem);
   }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 321px) {
   .homepage__portrait {
     width: clamp(10rem, 17vw, 25rem);
-    border: 3px solid green;
   }
 }
