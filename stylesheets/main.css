@@ -37,4 +37,5 @@ body {
   width: 100vw;
   background: var(--bg-black);
   overflow-y: hidden;
+  scroll-behavior: smooth;
 }

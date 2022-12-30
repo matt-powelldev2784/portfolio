@@ -14,8 +14,8 @@ const body = document.getElementById('body')
 console.log('body', body)
 const pages = [about, projects, contact]
 
-pages.forEach((page) => {
-  page.remove()
+pages.forEach((page) => {})
+
+projects.scrollIntoView({
+  behavior: 'smooth',
 })
-homepage.remove()
-nav.after(projects)
