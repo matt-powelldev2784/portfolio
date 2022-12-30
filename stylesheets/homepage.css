@@ -18,7 +18,7 @@
 }
 @media only screen and (max-width: 500px) {
   .hompage__flexbox {
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
 }
 
