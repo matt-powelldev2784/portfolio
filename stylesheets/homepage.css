@@ -21,9 +21,9 @@
     margin-top: -1rem;
   }
 }
-@media only screen and (min-device-width: 320px) {
+@media only screen and (max-device-width: 321px) {
   .hompage__flexbox {
-    margin-top: 0rem;
+    justify-content: flex-start;
   }
 }
 
