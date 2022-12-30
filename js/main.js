@@ -16,6 +16,7 @@ const pages = [about, projects, contact]
 
 pages.forEach((page) => {})
 
-projects.scrollIntoView({
-  behavior: 'smooth',
-})
+const test = projects.getBoundingClientRect()
+console.log('test', test)
+
+window.scroll(0, test.y + 20)
