@@ -107,6 +107,11 @@
     margin-top: -2rem;
   }
 }
+@media only screen and (max-width: 321px) {
+  .projects__flexbox {
+    margin-top: -4rem;
+  }
+}
 
 .projects_flexbox__item {
   color: white;
