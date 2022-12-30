@@ -8,8 +8,7 @@
 }
 @media only screen and (max-width: 480px) {
   .about_flexbox {
-    min-height: calc(100vh - var(---nav-height-mob));
-    margin: 0.5rem auto;
+    margin: 0rem auto;
     gap: 1rem;
   }
 }

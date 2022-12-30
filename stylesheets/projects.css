@@ -15,11 +15,6 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 480px) {
-  .projects__flexbox {
-    min-height: calc(100vh - var(---nav-height-mob-small));
-  }
-}
 
 .projects_flexbox__item {
   color: white;

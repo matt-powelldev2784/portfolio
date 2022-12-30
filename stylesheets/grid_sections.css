@@ -23,7 +23,7 @@
   width: 100vw;
 }
 @media only screen and (max-width: 480px) {
-  .page_grid {
+  .page_small {
     grid-template-rows: var(---nav-height-mob-small) 1fr;
   }
 }
