@@ -68,7 +68,7 @@
 }
 @media only screen and (max-width: 500px) {
   .projects_nav_dots {
-    bottom: 2.5rem;
+    bottom: 3rem;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -105,6 +105,11 @@
     align-items: center;
     justify-content: center;
     margin-top: -2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .projects__flexbox {
+    margin-top: -4rem;
   }
 }
 @media only screen and (max-width: 321px) {
