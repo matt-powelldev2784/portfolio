@@ -9,4 +9,6 @@ const projects = document.getElementsByClassName('projects__section')[0]
 const contact = document.getElementsByClassName('contact__section')[0]
 const nav = document.getElementsByClassName('main_nav__links_flexbox')[0]
 
-contact.scrollIntoView(true, { block: 'start', behavior: 'smooth', inline: 'nearest' })
+setTimeout(() => {
+  contact.scrollIntoView(true, { block: 'start', behavior: 'smooth', inline: 'nearest' })
+}, 5000)
