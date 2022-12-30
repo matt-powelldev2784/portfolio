@@ -13,10 +13,10 @@
 @media only screen and (max-width: 992px) {
   .hompage__flexbox {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
-@media only screen and (max-device-width: 321px) {
+@media only screen and (max-width: 500px) {
   .hompage__flexbox {
     justify-content: flex-start;
   }

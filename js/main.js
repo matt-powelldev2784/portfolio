@@ -3,12 +3,46 @@ setInterval(() => {
   console.log('window.innerHeight', window.innerHeight)
 }, 3000)
 
-const homepage = document.getElementsByClassName('homepage__section')[0]
-const about = document.getElementsByClassName('about__section')[0]
-const projects = document.getElementsByClassName('projects__section')[0]
-const contact = document.getElementsByClassName('contact__section')[0]
-const nav = document.getElementsByClassName('main_nav__links_flexbox')[0]
+const navigationItems = [
+  {
+    home: {
+      menuElement: document.getElementById('main_nav__home'),
+      sectionElement: document.getElementById('homepage__section'),
+    },
+  },
+  {
+    about: {
+      menuElement: document.getElementById('main_nav__about'),
+      sectionElement: document.getElementById('about__section'),
+    },
+  },
+  {
+    projects: {
+      menuElement: document.getElementById('main_nav__projects'),
+      sectionElement: document.getElementById('projects__section'),
+    },
+  },
+  {
+    contact: {
+      menuElement: document.getElementById('main_nav__contact'),
+      sectionElement: document.getElementById('contact__section'),
+    },
+  },
+]
 
-setTimeout(() => {
-  contact.scrollIntoView(true, { block: 'start', behavior: 'smooth', inline: 'nearest' })
-}, 5000)
+navigationItems.forEach((navigationItem) => {
+  for (const [key, value] of Object.entries(navigationItem)) {
+    const menuElement = value.menuElement
+    const sectionElement = value.sectionElement
+    menuElement.addEventListener(
+      'click',
+
+      () => {
+        sectionElement.scrollIntoView(true, { block: 'start', behavior: 'smooth', inline: 'nearest' })
+      }
+      //
+    )
+  }
+})
+
+const loadEventListeners = () => {}

@@ -33,6 +33,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--white);
+  cursor: pointer;
 }
 @media only screen and (max-width: 992px) {
   .main_nav__links_flexbox__item {
