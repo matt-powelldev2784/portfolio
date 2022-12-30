@@ -83,7 +83,6 @@
   align-items: center;
   gap: 1rem;
   min-height: calc(100vh - var(---nav-height));
-  border: 3px solid green;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {

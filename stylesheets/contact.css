@@ -20,7 +20,6 @@
   margin: 2rem 0;
   width: 100%;
   min-height: calc(100vh - var(---nav-height));
-  border: 1px solid red;
 }
 @media only screen and (max-width: 500px) {
   .contact__flexbox {
