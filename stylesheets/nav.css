@@ -8,6 +8,7 @@
   background: var(--bg-black);
   min-width: 320px;
   z-index: 999;
+  border: 2px solid blue;
 }
 @media only screen and (max-width: 992px) {
   .main_nav__links_flexbox {

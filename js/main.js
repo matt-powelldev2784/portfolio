@@ -38,7 +38,7 @@ navigationItems.forEach((navigationItem) => {
       'click',
 
       () => {
-        sectionElement.scrollIntoView({ block: 'start', behavior: 'smooth', inline: 'nearest' })
+        sectionElement.scrollIntoView({ block: 'start', behavior: 'smooth', inline: 'center' })
       }
       //
     )
