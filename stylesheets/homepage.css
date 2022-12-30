@@ -18,7 +18,6 @@
 }
 @media only screen and (max-width: 480px) {
   .hompage__flexbox {
-    min-height: 110%;
   }
 }
 @media only screen and (max-width: 321px) {
