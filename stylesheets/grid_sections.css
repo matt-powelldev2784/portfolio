@@ -18,6 +18,7 @@
 }
 
 .page_grid__item2 {
+  display: flex;
+  align-items: center;
   min-height: calc(100vh - var(---nav-height));
-  overflow: hidden;
 }
