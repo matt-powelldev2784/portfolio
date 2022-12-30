@@ -18,6 +18,5 @@
 }
 
 .page_grid__item2 {
-  min-height: calc(100vh - var(---nav-height));
   border: 3px solid green;
 }
