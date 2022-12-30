@@ -18,7 +18,7 @@
 }
 @media only screen and (max-width: 500px) {
   .hompage__flexbox {
-    margin-top: -1rem;
+    justify-content: flex-start;
   }
 }
 @media only screen and (max-device-width: 321px) {
