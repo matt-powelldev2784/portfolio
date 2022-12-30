@@ -28,7 +28,7 @@
     padding: 0;
     margin: 0;
     min-width: 320px;
-    min-height: calc(100vh - 8rem);
+    min-height: calc(100vh - 9.5rem);
   }
 }
 @media only screen and (max-width: 321px) {
@@ -39,7 +39,7 @@
     padding: 0;
     margin: 0;
     min-width: 320px;
-    min-height: calc(100vh - 0.5rem);
+    min-height: calc(100vh - 8rem);
   }
 }
 

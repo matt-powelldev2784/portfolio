@@ -17,7 +17,7 @@
 }
 @media only screen and (max-width: 480px) {
   .projects__flexbox {
-    min-height: calc(100vh - 9rem);
+    min-height: calc(100vh - 9.5rem);
   }
 }
 
