@@ -115,5 +115,6 @@
 @media only screen and (max-device-width: 320px) {
   .homepage__portrait {
     width: clamp(10rem, 17vw, 25rem);
+    border: 3px solid green;
   }
 }
