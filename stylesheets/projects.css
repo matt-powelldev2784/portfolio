@@ -187,7 +187,7 @@
     line-height: 1;
   }
 }
-@media only screen and (max-width: 3211px) {
+@media only screen and (max-width: 321px) {
   .projects__h1 {
     line-height: 1;
     font-size: 1.2rem;
