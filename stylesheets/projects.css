@@ -52,33 +52,19 @@
   }
 }
 
-.projects_nav_dots {
-  width: 100%;
-  position: absolute;
-  bottom: 3rem;
+.projects_nav_dot_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   color: var(--dark-blue);
-  font-size: 5rem;
-  text-align: center;
-  letter-spacing: 0.25rem;
-}
-@media only screen and (max-width: 992px) {
-  .projects_nav_dots {
-    bottom: 1rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .projects_nav_dots {
-    bottom: 3rem;
-  }
-}
-@media only screen and (max-width: 321px) {
-  .projects_nav_dots {
-    bottom: 0.5rem;
-  }
+  margin: 0 auto;
 }
 
 .projects_nav_dot {
-  display: inline;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  fill: var(--dark-blue);
   opacity: 25%;
 }
 
@@ -96,7 +82,6 @@
   align-items: center;
   gap: 1rem;
   min-height: calc(100vh - var(---nav-height));
-  margin-top: -3rem;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {
@@ -104,17 +89,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: -2rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .projects__flexbox {
-    margin-top: -5rem;
   }
 }
 @media only screen and (max-width: 321px) {
   .projects__flexbox {
-    margin-top: -4.5rem;
+    align-items: flex-start;
   }
 }
 
@@ -126,7 +105,6 @@
 
 .projects_carosel__container {
   width: 100vw;
-  height: calc(100vh - var(---nav-height));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +131,6 @@
 .projects_carosel__flexbox__item1 {
   position: relative;
   width: 40%;
-  height: 100%;
   overflow: hidden;
 }
 @media only screen and (max-width: 992px) {
@@ -205,14 +182,15 @@
   overflow-y: hidden;
   padding: 0 0.5rem;
 }
-@media only screen and (max-width: 992px) {
-  .projects__h1 {
-    text-align: center;
-  }
-}
 @media only screen and (max-width: 500px) {
   .projects__h1 {
     line-height: 1;
+  }
+}
+@media only screen and (max-width: 3211px) {
+  .projects__h1 {
+    line-height: 1;
+    font-size: 1.2rem;
   }
 }
 
@@ -224,6 +202,11 @@
   text-justify: inter-word;
   margin: clamp(0.5rem, 1.5vw, 1.5rem);
   padding: 0 0.5rem;
+}
+@media only screen and (max-width: 321px) {
+  .projects_p {
+    font-size: 0.8rem;
+  }
 }
 
 .projects__tech_stack {

@@ -17,7 +17,7 @@
   height: 100%;
 }
 
-._grid__item2 {
+.page_grid__item2 {
   min-height: calc(100vh - var(---nav-height));
   overflow: hidden;
 }
