@@ -109,12 +109,12 @@
 }
 @media only screen and (max-width: 500px) {
   .projects__flexbox {
-    margin-top: -4rem;
+    margin-top: -7rem;
   }
 }
 @media only screen and (max-width: 321px) {
   .projects__flexbox {
-    margin-top: -4rem;
+    margin-top: -6rem;
   }
 }
 
