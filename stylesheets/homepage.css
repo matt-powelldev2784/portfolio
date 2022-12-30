@@ -16,13 +16,9 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 480px) {
-  .hompage__flexbox {
-  }
-}
 @media only screen and (max-width: 321px) {
   .hompage__flexbox {
-    min-height: calc(100vh - var(---nav-height-small));
+    min-height: calc(100vh - 3rem);
   }
 }
 
