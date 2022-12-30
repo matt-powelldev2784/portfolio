@@ -21,9 +21,10 @@
     margin-top: -1rem;
   }
 }
-@media only screen and (max-width: 321px) {
+@media only screen and (min-device-width: 320px) {
   .hompage__flexbox {
     margin-top: 3rem;
+    border: 10px solid green;
   }
 }
 
