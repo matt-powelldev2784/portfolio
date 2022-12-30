@@ -19,4 +19,4 @@ pages.forEach((page) => {})
 const test = projects.getBoundingClientRect()
 console.log('test', test)
 
-window.scroll(0, test.y + 20)
+window.scroll(0, test.y + 35)
