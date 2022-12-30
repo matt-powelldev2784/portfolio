@@ -16,11 +16,11 @@
     justify-content: center;
   }
 }
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .hompage__flexbox {
     justify-content: flex-start;
   }
-} */
+}
 
 .homepage__flexbox_item1 {
   width: 58%;
