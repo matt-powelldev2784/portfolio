@@ -16,6 +16,16 @@
     justify-content: center;
   }
 }
+@media only screen and (max-width: 480px) {
+  .hompage__flexbox {
+    min-height: 110%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .hompage__flexbox {
+    min-height: calc(100vh - var(---nav-height-small));
+  }
+}
 
 .homepage__flexbox_item1 {
   width: 58%;
