@@ -21,8 +21,3 @@
   min-height: calc(100vh - var(---nav-height));
   overflow: hidden;
 }
-@media only screen and (max-width: 500px) {
-  .page_grid__item2 {
-    min-height: calc(100vh - var(---nav-height-mob));
-  }
-}
