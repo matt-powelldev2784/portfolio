@@ -6,8 +6,9 @@
   margin: 3rem auto;
   min-height: calc(100vh - var(---nav-height));
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .about_flexbox {
+    min-height: calc(100vh - var(---nav-height-mob));
     margin: 0.5rem auto;
     gap: 1rem;
   }
@@ -34,7 +35,7 @@
     background: var(--bg-black-secondary);
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .about_card_flexbox {
     gap: 0rem;
     margin: 0;
@@ -58,7 +59,7 @@
     background: var(--bg-black-secondary);
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .about_card_flexbox_reverse {
     gap: 0rem;
     margin: 0;
@@ -117,7 +118,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .about__h1 {
     font-size: 1.2rem;
     padding: 0rem;
@@ -138,7 +139,7 @@
     padding: 1rem;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .about_p {
     font-size: 0.9rem;
     padding: 0rem;

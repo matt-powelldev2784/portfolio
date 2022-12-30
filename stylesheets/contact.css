@@ -1,7 +1,7 @@
 .contact__container {
   margin: 0 2rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__container {
     margin: 0;
     width: 100vw;
@@ -20,7 +20,7 @@
   width: 100%;
   min-height: calc(100vh - var(---nav-height));
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__flexbox {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -28,6 +28,7 @@
     padding: 0;
     margin: 0;
     min-width: 320px;
+    min-height: calc(100vh - var(---nav-height-mob));
   }
 }
 
@@ -48,7 +49,7 @@
   box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.5), 0px 24px 38px 3px rgba(0, 0, 0, 0.25),
     0px 9px 46px 8px rgba(0, 0, 0, 2);
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__card {
     flex-direction: row;
     width: 90vw;
@@ -72,7 +73,7 @@
   margin: 1rem auto;
   fill: var(--dark-blue);
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__card_img {
     width: 2.5rem;
     height: 2.5rem;
@@ -92,13 +93,13 @@
   text-align: center;
   margin: 1rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__card_title {
     margin: 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__card_link {
     width: 80%;
   }
@@ -110,7 +111,7 @@
   text-align: center;
   margin: 1rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .contact__card_text {
     margin: 0;
     font-size: 0.8rem;
