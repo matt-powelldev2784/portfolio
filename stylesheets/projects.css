@@ -202,7 +202,7 @@
     fill: var(--primary-text);
   }
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .projects__nav_arrrow_mobile {
     display: none;
   }
