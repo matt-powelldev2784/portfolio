@@ -8,6 +8,7 @@
   background: var(--bg-primary);
   min-width: 320px;
   z-index: 999;
+  overflow: visible;
 }
 @media only screen and (max-width: 992px) {
   .main_nav__links_flexbox {
@@ -61,12 +62,58 @@
   }
 }
 
-.main_nav_light {
+/* ------------------------------------------------------------------------- */
+
+.main_nav__light {
   width: 2rem;
   height: 2rem;
   margin: 0 auto;
   fill: var(--theme-light);
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    right: -10rem;
+  }
+  20% {
+    opacity: 0;
+    right: -10rem;
+  }
+  30% {
+    opacity: 1;
+    right: -1rem;
+  }
+  99% {
+    opacity: 1;
+    right: -1rem;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.main_nav__light_message {
+  position: absolute;
+  right: -1rem;
+  top: 3rem;
+  color: var(--theme-light);
+  width: 11.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.25rem;
+  background: var(--primary-text);
+  opacity: 0%;
+
+  animation: fadeIn 10s linear 1s;
+  -webkit-animation: fadeIn 10s linear 1s;
+  -moz-animation: fadeIn 10s linear 1s;
+  -o-animation: fadeIn 10s linear 1s;
+  -ms-animation: fadeIn 10s linear 1s;
+}
+
+/* ------------------------------------------------------------------------- */
 
 .main_nav_text {
   font-size: 1.2rem;
@@ -99,6 +146,7 @@
   flex-direction: row;
   gap: 1rem;
   padding: 1rem 1rem;
+  overflow: visible;
 }
 @media only screen and (max-width: 992px) {
   .contact_nav__flexbox {
@@ -107,7 +155,9 @@
 }
 
 .contact_nav___flexbox__item {
+  position: relative;
   cursor: pointer;
+  overflow: visible;
 }
 
 .contact_nav___img {
