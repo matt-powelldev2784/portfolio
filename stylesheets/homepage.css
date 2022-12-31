@@ -41,7 +41,7 @@
   width: max-content;
   margin: 0 auto;
   top: 1rem;
-  color: var(--dark-blue);
+  color: var(--primary-text);
   font-size: clamp(2rem, 5.58vw, 7rem);
   font-weight: 700;
   overflow-y: hidden;
@@ -60,7 +60,7 @@
 
 .homepage_text__h2 {
   margin: 0rem 0.5rem;
-  color: var(--white);
+  color: var(--secondary-text);
   font-size: clamp(1.02rem, 2.83vw, 4rem);
   font-weight: 900;
   width: max-content;
@@ -79,11 +79,11 @@
 
 .homepage_text_p {
   font-size: clamp(0.9rem, 1.2vw, 1.2rem);
-  color: var(--white);
+  color: var(--secondary-text);
   margin: 0rem auto;
   min-width: 310px;
   text-align: center;
-  color: var(--dark-blue);
+  color: var(--primary-text);
   padding: 0 1.2rem;
 }
 @media only screen and (max-width: 992px) {

@@ -31,14 +31,14 @@
   .about_card_flexbox {
     gap: 0rem;
     margin: 0 4vw;
-    background: var(--bg-black-secondary);
+    background: var(--bg-secondary);
   }
 }
 @media only screen and (max-width: 480px) {
   .about_card_flexbox {
     gap: 0rem;
     margin: 0;
-    background: var(--bg-black-secondary);
+    background: var(--bg-secondary);
   }
 }
 
@@ -55,14 +55,14 @@
   .about_card_flexbox_reverse {
     gap: 0rem;
     margin: 0 4vw;
-    background: var(--bg-black-secondary);
+    background: var(--bg-secondary);
   }
 }
 @media only screen and (max-width: 480px) {
   .about_card_flexbox_reverse {
     gap: 0rem;
     margin: 0;
-    background: var(--bg-black-secondary);
+    background: var(--bg-secondary);
   }
 }
 
@@ -79,7 +79,7 @@
 .about_card_flexbox__item2 {
   width: clamp(15rem, 50vw, 60rem);
   padding: 1rem;
-  color: var(--white);
+  color: var(--secondary-text);
 }
 @media only screen and (max-width: 992px) {
   .about_card_flexbox__item2 {
@@ -105,7 +105,7 @@
 }
 
 .about__h1 {
-  color: var(--light-blue);
+  color: var(--primary-text);
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;

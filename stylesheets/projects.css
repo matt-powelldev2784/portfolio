@@ -97,7 +97,7 @@
 }
 
 .projects__h1 {
-  color: var(--dark-blue);
+  color: var(--primary-text);
   font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 700;
   text-align: center;
@@ -121,7 +121,7 @@
 .projects_p {
   font-size: clamp(0.9rem, 1.1vw, 1.1rem);
   font-weight: 400;
-  color: var(--white);
+  color: var(--secondary-text);
   text-align: justify;
   text-justify: inter-word;
   margin: clamp(0.5rem, 1.5vw, 1.5rem);
@@ -183,7 +183,7 @@
 .projects__nav_arrrow {
   width: clamp(2.5rem, 5vw, 4.5rem);
   height: clamp(2.5rem, 5vw, 4.5rem);
-  fill: var(--dark-blue);
+  fill: var(--primary-text);
 }
 @media only screen and (max-width: 480px) {
   .projects__nav_arrrow {
@@ -199,7 +199,7 @@
     display: block;
     width: 2rem;
     height: 2rem;
-    fill: var(--dark-blue);
+    fill: var(--primary-text);
   }
 }
 @media only screen and (max-device-width: 480px) {
@@ -212,7 +212,7 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  color: var(--dark-blue);
+  color: var(--primary-text);
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -221,7 +221,7 @@
   display: inline-block;
   width: 1rem;
   height: 1rem;
-  fill: var(--dark-blue);
+  fill: var(--primary-text);
   opacity: 25%;
 }
 

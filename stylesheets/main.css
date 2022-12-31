@@ -1,12 +1,8 @@
 :root {
-  --dark-blue: #679bf1;
-  --light-blue: #8ab9f1;
-  --light-grey: #f1f1f1;
-  --dark-grey: #989795;
-  --white: white;
-  --bg-black: #161616;
-  --bg-black-secondary: #202020;
-  --black: black;
+  --primary-text: #679bf1;
+  --secondary-text: white;
+  --bg-primary: #161616;
+  --bg-secondary: #202020;
   ---nav-height: 4rem;
   ---nav-height-mob: 5rem;
 }
@@ -35,7 +31,7 @@ body {
   position: relative;
   margin: 0 auto;
   width: 100vw;
-  background: var(--bg-black);
+  background: var(--bg-primary);
   overflow-y: hidden;
   scroll-behavior: smooth;
 }
