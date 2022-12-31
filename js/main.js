@@ -12,15 +12,7 @@ const loadEventListeners = () => {
 loadEventListeners()
 
 const darkTheme = document.styleSheets[1].cssRules[0].cssText
-
-const lightTheme = `:root {
-  --primary-text: red;
-  --secondary-text: white;
-  --bg-primary: #161616;
-  --bg-secondary: #202020;
-  ---nav-height: 4rem;
-  ---nav-height-mob: 5rem;
-}`
+console.log('darkTheme', darkTheme)
 
 const themeColors = document.styleSheets[1].cssRules[0].style
 
@@ -29,6 +21,13 @@ const toggleTheme = document.addEventListener('keydown', (event) => {
     toggleThemeProperties()
   }
 })
+
+const lightTheme = {
+  '--primary-text': '#216deb',
+  '--secondary-text': 'black',
+  '--bg-primary': 'white',
+  '--bg-secondary': '#f4f4f8',
+}
 
 const toggleThemeProperties = () => {
   const rootSelector = document.styleSheets[1].cssRules[0].style
@@ -54,5 +53,3 @@ const toggleThemeProperties = () => {
   // document.styleSheets[1].cssRules[0].style.setProperty('--bg-primary', 'white')
   // document.styleSheets[1].cssRules[0].style.setProperty('--bg-secondary', '#f4f4f8')
 }
-
-toggleThemeProperties()
