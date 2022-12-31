@@ -202,11 +202,6 @@
     fill: var(--primary-text);
   }
 }
-@media only screen and (max-width: 480px) {
-  .projects__nav_arrrow_mobile {
-    display: none;
-  }
-}
 
 .projects_nav_dot_container {
   display: flex;
