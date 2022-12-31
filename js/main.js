@@ -54,3 +54,5 @@ const toggleThemeProperties = () => {
   // document.styleSheets[1].cssRules[0].style.setProperty('--bg-primary', 'white')
   // document.styleSheets[1].cssRules[0].style.setProperty('--bg-secondary', '#f4f4f8')
 }
+
+toggleThemeProperties()
