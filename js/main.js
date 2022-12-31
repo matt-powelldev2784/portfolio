@@ -1,5 +1,5 @@
 import { loadNavigationEventListners } from './eventListeners/navigation.js'
-import { toogleTheme } from './theme/toggleTheme.js'
+import { toggleThemeEventListeners } from './eventListeners/toggleTheme.js'
 
 // setInterval(() => {
 //   console.log('window.innerWidth', window.innerWidth)
@@ -8,12 +8,6 @@ import { toogleTheme } from './theme/toggleTheme.js'
 
 const loadEventListeners = () => {
   loadNavigationEventListners()
+  toggleThemeEventListeners()
 }
-
 loadEventListeners()
-
-const toggleTheme = document.addEventListener('keydown', (event) => {
-  if (event.key === 'l') {
-    toogleTheme()
-  }
-})
