@@ -3,6 +3,7 @@ export const lightThemeRoot = {
   '--secondary-text': 'black',
   '--bg-primary': 'white',
   '--bg-secondary': '#f4f4f8',
+  '--theme-light': 'black',
 }
 
 export const lightThemeContactCard = {

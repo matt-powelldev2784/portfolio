@@ -61,6 +61,13 @@
   }
 }
 
+.main_nav_light {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  fill: var(--theme-light);
+}
+
 .main_nav_text {
   font-size: 1.2rem;
   white-space: nowrap;
