@@ -106,6 +106,10 @@
   }
 }
 
+.contact_nav___flexbox__item {
+  cursor: pointer;
+}
+
 .contact_nav___img {
   width: 2rem;
   height: 2rem;
