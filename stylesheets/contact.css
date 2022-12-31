@@ -34,16 +34,6 @@
     min-width: 320px;
   }
 }
-@media only screen and (max-width: 321px) {
-  .contact__flexbox {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    padding: 0;
-    margin: 0;
-    min-width: 320px;
-  }
-}
 
 /* ------------------------------------------------------------------------- */
 
