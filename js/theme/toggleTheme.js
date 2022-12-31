@@ -12,7 +12,6 @@ const toogleCssEntries = (styleSheeyRulesEnrty, theme) => {
   }
 }
 const toogleLightTheme = () => {
-  console.log('lightThemeRoot', lightThemeRoot)
   const rootSelector = document.styleSheets[1].cssRules[0].style
   const contactCard = document.styleSheets[7].cssRules[5].style
   toogleCssEntries(rootSelector, lightThemeRoot)
@@ -20,8 +19,6 @@ const toogleLightTheme = () => {
 }
 
 const toogleDarkTheme = () => {
-  console.log('toggleDarkTheme')
-  console.log('darkThemeRoot', darkThemeRoot)
   const rootSelector = document.styleSheets[1].cssRules[0].style
   const contactCard = document.styleSheets[7].cssRules[5].style
   toogleCssEntries(rootSelector, darkThemeRoot)
@@ -29,18 +26,15 @@ const toogleDarkTheme = () => {
 }
 
 export const toogleTheme = () => {
-  console.log('currentTheme', currentTheme)
   if (currentTheme === 'dark') {
     toogleLightTheme()
     currentTheme = themes.light
-    console.log('currentThemeAfter', currentTheme)
     return
   }
 
   if (currentTheme === 'light') {
     toogleDarkTheme()
     currentTheme = themes.dark
-    console.log('currentThemeAfter', currentTheme)
     return
   }
 }

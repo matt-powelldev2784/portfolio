@@ -106,7 +106,7 @@
 
 .about__h1 {
   color: var(--primary-text);
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 400;
   line-height: 1.2;
   padding-bottom: 0.5rem;
@@ -115,6 +115,7 @@
 @media only screen and (max-width: 992px) {
   .about__h1 {
     text-align: center;
+    font-size: 2rem;
   }
 }
 @media only screen and (max-width: 480px) {
