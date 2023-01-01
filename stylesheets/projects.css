@@ -25,10 +25,6 @@
   color: white;
 }
 
-.projects_carosel__wrapper {
-  cursor: pointer;
-}
-
 /* ------------------------------------------------------------------------- */
 
 .projects_carosel__wrapper {
@@ -108,7 +104,7 @@
 
 .projects__h1 {
   color: var(--primary-text);
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 700;
   text-align: center;
   letter-spacing: 1vmax;
@@ -128,14 +124,31 @@
   }
 }
 
+.projects__button {
+  display: block;
+  border: none;
+  background: var(--primary-text);
+  color: var(--bg-primary);
+  padding: 0.2rem 1rem 0.3rem 1rem;
+  margin: clamp(0.5rem, 1.5vw, 1.5rem) auto;
+  font-size: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
 .projects_p {
-  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+  font-size: clamp(1rem, 1.1vw, 1.1rem);
   font-weight: 400;
   color: var(--secondary-text);
   text-align: justify;
   text-justify: inter-word;
-  margin: clamp(0.5rem, 1.5vw, 1.5rem);
+  margin: clamp(1rem, 1.5vw, 1.5rem);
   padding: 0 0.5rem;
+}
+@media only screen and (max-width: 992px) {
+  .projects_p {
+    margin: clamp(0.5rem, 1.5vw, 1.5rem);
+  }
 }
 @media only screen and (max-width: 321px) {
   .projects_p {

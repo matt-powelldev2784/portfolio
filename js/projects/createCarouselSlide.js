@@ -21,11 +21,20 @@ export const createCarouselSlide = (projectInfo) => {
     return img;
   });
   const techStackContainer = createElement('div', { class: 'projects__tech_stack' }, ...techStack);
-  const flexBoxItem2 = createElement('div', { class: 'projects_carosel__flexbox__item2' }, h1, p, techStackContainer);
+  const button = createElement('button', { class: 'projects__button' }, 'Click here to visit site');
+  const buttonContainer = createElement('a', { href: href }, button);
+  const flexBoxItem2 = createElement(
+    'div',
+    { class: 'projects_carosel__flexbox__item2' },
+    h1,
+    buttonContainer,
+    p,
+    techStackContainer
+  );
 
   const carouselItem = createElement(
-    'a',
-    { class: 'projects_carosel__wrapper', id: `projects_carousel__item${key}`, href: href },
+    'div',
+    { class: 'projects_carosel__wrapper', id: `projects_carousel__item${key}` },
     flexBoxItem1,
     flexBoxItem2
   );
