@@ -26,7 +26,7 @@ export const addTouchDetectionEventListeners = (element, swipeFunctions) => {
   const handleTouch = (swipeFunctions) => {
     const { swipeLeftFunction, swipeRightFunction, swipeUpFunction, swipeDownFunction, tapFunction } = swipeFunctions;
 
-    if (touchendX < touchstartX + 100) {
+    if (touchendX < touchstartX - 100) {
       if (swipeLeftFunction) {
         setTimeout(() => {
           swipeLeftFunction();
@@ -42,7 +42,7 @@ export const addTouchDetectionEventListeners = (element, swipeFunctions) => {
       }
     }
 
-    if (touchendY < touchstartY + 100) {
+    if (touchendY < touchstartY - 100) {
       if (swipeUpFunction) {
         setTimeout(() => {
           swipeUpFunction();
