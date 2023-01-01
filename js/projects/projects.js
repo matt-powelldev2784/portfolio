@@ -5,7 +5,9 @@ export const projects = [
     text: `Showcase website project built using HTML, Javascript and CSS. Flexbox, grid and media queries are utilised to 
     provide a fully repsonsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used so the 
     icons also change color when the light or dark theme is toggled. I have used a carousel to display the projects. I
-    have created touch detection logic so the carousel can be swiped on touch devices. `,
+    have created touch detection logic so the carousel can be swiped on touch devices. I have used an intersection obsever
+    to detect when the projects section comes into view so I can toggle the display of a swipe icon to alert touch users
+    of the swipe functionality.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
