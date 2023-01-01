@@ -222,7 +222,7 @@
 }
 
 .projects_nav_dot_active {
-  filter: brightness(0) invert(1);
+  opacity: 25%;
   width: 1rem;
   height: 1rem;
 }
