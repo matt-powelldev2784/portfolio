@@ -11,7 +11,7 @@ setInterval(() => {
 
 const loadEventListeners = () => {
   loadNavigationEventListners();
-  toggleThemeEventListeners();
+  //toggleThemeEventListeners();
   //loadProjectsEventListeners();
 };
 loadEventListeners();
