@@ -15,6 +15,7 @@ export const projects = [
     ],
     image: './img/projects/movie_bg6.png',
     imageAlt: 'Moive light and clap board',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_website/',
   },
   {
     key: 1,
@@ -31,6 +32,7 @@ export const projects = [
     ],
     image: './img/projects/movie_bg6.png',
     imageAlt: 'Moive light and clap board',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_moive_data/',
   },
   {
     key: 2,
@@ -45,6 +47,7 @@ export const projects = [
     ],
     image: 'img/projects/rob_beckett.jpg',
     imageAlt: 'Headshot of Rob Becket Comedian',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_hobby_page/',
   },
   {
     key: 3,
@@ -57,6 +60,7 @@ export const projects = [
     ],
     image: 'img/projects/gallery.jpg',
     imageAlt: 'Three people sitting on bench in a gallery',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_project_gallery/',
   },
   {
     key: 4,
@@ -71,6 +75,7 @@ export const projects = [
     ],
     image: './img/projects/comment_box_logo2.svg',
     imageAlt: 'Comment Box Logo',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_comment_box/',
   },
   {
     key: 5,
@@ -91,5 +96,6 @@ export const projects = [
     ],
     image: './img/projects/ot_crest.png',
     imageAlt: 'Old Throntonains FC Crest',
+    href: 'https://otsregister.netlify.app/',
   },
 ];

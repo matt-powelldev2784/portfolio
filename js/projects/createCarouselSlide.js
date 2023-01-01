@@ -2,7 +2,7 @@ import { createElement } from '../helpers/createElement.js';
 import { projects } from './projects.js';
 
 export const createCarouselSlide = (projectInfo) => {
-  const { key, title, text, techImages, image, imageAlt } = projectInfo;
+  const { key, title, text, techImages, image, imageAlt, href } = projectInfo;
 
   //flexbox item1
   const img = createElement('img', {
@@ -24,8 +24,8 @@ export const createCarouselSlide = (projectInfo) => {
   const flexBoxItem2 = createElement('div', { class: 'projects_carosel__flexbox__item2' }, h1, p, techStackContainer);
 
   const carouselItem = createElement(
-    'div',
-    { class: 'projects_carosel__wrapper', id: `projects_carousel__item${key}` },
+    'a',
+    { class: 'projects_carosel__wrapper', id: `projects_carousel__item${key}`, href: href },
     flexBoxItem1,
     flexBoxItem2
   );

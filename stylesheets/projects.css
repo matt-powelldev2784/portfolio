@@ -25,6 +25,10 @@
   color: white;
 }
 
+.projects_carosel__wrapper {
+  cursor: pointer;
+}
+
 /* ------------------------------------------------------------------------- */
 
 .projects_carosel__wrapper {
