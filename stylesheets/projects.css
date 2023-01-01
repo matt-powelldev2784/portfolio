@@ -6,7 +6,6 @@
   align-items: center;
   gap: 1rem;
   min-height: calc(100vh - var(---nav-height));
-  padding: 2rem 0;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {
@@ -14,6 +13,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 0 0 2rem 0;
   }
 }
 @media only screen and (max-width: 441px) {
