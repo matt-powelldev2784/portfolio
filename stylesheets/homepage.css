@@ -78,7 +78,8 @@
 }
 
 .homepage_text_p {
-  font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  font-weight: 400;
   color: var(--secondary-text);
   margin: 0rem auto;
   min-width: 310px;
