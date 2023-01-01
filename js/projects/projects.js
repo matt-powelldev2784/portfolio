@@ -13,8 +13,8 @@ export const projects = [
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
       { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
     ],
-    image: './img/projects/movie_bg6.png',
-    imageAlt: 'Moive light and clap board',
+    image: './img/projects/showcase.png',
+    imageAlt: 'Matthew Powell showcase title image',
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_website/',
   },
   {
@@ -79,7 +79,7 @@ export const projects = [
   },
   {
     key: 5,
-    title: 'PLAYER REGISTRATION APP',
+    title: 'PLAYER REGISTRATION',
     text: ` An application built for my amateur football team to manage player registration for training and match
             days. Frontend built with React, TypeScript, Redux Toolkit and Styled Components. It utilises React
             DND Library which provides users with drag and drop functionality. The backend is created with NodeJS,

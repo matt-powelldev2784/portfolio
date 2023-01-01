@@ -113,6 +113,7 @@
   line-height: 1.2;
   overflow-y: hidden;
   padding: 0 0.5rem;
+  margin: 1rem auto;
 }
 @media only screen and (max-width: 441px) {
   .projects__h1 {
