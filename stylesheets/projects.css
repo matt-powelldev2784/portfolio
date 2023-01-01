@@ -240,24 +240,30 @@
 }
 
 .projects__nav_swipe_icon_conatiner_animation {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 4rem;
-  height: 4rem;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-  background: var(--bg-primary);
-  clip-path: circle(50% at 50% 50%);
-  z-index: 1;
-  animation: fadeInOut 5s;
-  -webkit-animation: fadeInOut 5s;
-  -moz-animation: fadeInOut 5s;
-  -o-animation: fadeInOut 5s;
-  -ms-animation: fadeInOut 5s;
+  display: none;
+}
+@media only screen and (max-width: 441px) {
+  .projects__nav_swipe_icon_conatiner_animation {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    background: var(--bg-primary);
+    clip-path: circle(50% at 50% 50%);
+    z-index: 1;
+    opacity: 0;
+    animation: fadeInOut 5s;
+    -webkit-animation: fadeInOut 5s;
+    -moz-animation: fadeInOut 5s;
+    -o-animation: fadeInOut 5s;
+    -ms-animation: fadeInOut 5s;
+  }
 }
 
 .projects__nav_swipe_icon_conatiner {
