@@ -8,7 +8,7 @@
 }
 @media only screen and (max-width: 441px) {
   .about_flexbox {
-    margin: 0.5rem auto;
+    margin: 0 auto;
     gap: 1rem;
   }
 }
