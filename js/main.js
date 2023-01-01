@@ -8,7 +8,7 @@ setInterval(() => {
   console.log('window.innerHeight', window.innerHeight);
 }, 3000);
 
-loadCarouselSlide(0);
+loadCarouselSlide(4);
 
 const loadEventListeners = () => {
   loadNavigationEventListners();

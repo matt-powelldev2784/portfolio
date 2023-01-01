@@ -16,7 +16,7 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .hompage__flexbox {
     min-height: calc(100vh - 9rem);
   }
@@ -52,7 +52,7 @@
     top: 0.7rem;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .homepage_text__h1 {
     font-size: clamp(2rem, 9.5vw, 7rem);
   }
@@ -71,7 +71,7 @@
     font-size: clamp(1.42rem, 4.04vw, 7rem);
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .homepage_text__h2 {
     font-size: clamp(1rem, 4.8vw, 7rem);
   }
@@ -91,7 +91,7 @@
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .homepage_text_p {
     font-size: 0.9rem;
     padding: 0 1rem;
@@ -107,7 +107,7 @@
     width: clamp(17rem, 18vw, 25rem);
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .homepage__portrait {
     width: clamp(17rem, 18vw, 25rem);
   }

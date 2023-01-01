@@ -7,7 +7,7 @@
   align-items: start;
   width: 100vw;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
   .page_grid {
     grid-template-rows: var(---nav-height-mob) 1fr;
   }
