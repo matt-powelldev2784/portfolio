@@ -3,6 +3,9 @@ import { toggleThemeEventListeners } from './eventListeners/toggleTheme.js';
 import { loadProjectsEventListeners } from './eventListeners/projects.js';
 import { loadCarouselSlide } from './projects/loadCarouselSlide.js';
 import { currentSlide } from './projects/loadCarouselSlide.js';
+import { addTouchDetectionEventListeners } from './eventListeners/touchDetection.js';
+import { nextSlide } from './projects/nextSlide.js';
+import { prevSlide } from './projects/prevSlide.js';
 
 setInterval(() => {
   console.log('window.innerWidth', window.innerWidth);
@@ -15,5 +18,9 @@ const loadEventListeners = () => {
   loadNavigationEventListners();
   toggleThemeEventListeners();
   loadProjectsEventListeners();
+
+  const projects = document.getElementById('projects__section');
+  const swipeFunctions = { swipeLeftFunction: nextSlide, swipeRightFunction: prevSlide };
+  addTouchDetectionEventListeners(projects, swipeFunctions);
 };
 loadEventListeners();
