@@ -27,37 +27,42 @@ export const addTouchDetectionEventListeners = (element, swipeFunctions) => {
     const { swipeLeftFunction, swipeRightFunction, swipeUpFunction, swipeDownFunction, tapFunction } = swipeFunctions;
 
     if (touchendX < touchstartX) {
-      console.log('Swiped left');
       if (swipeLeftFunction) {
-        swipeLeftFunction();
+        setTimeout(() => {
+          swipeLeftFunction();
+        }, 300);
       }
     }
 
     if (touchendX > touchstartX) {
-      console.log('Swiped right');
       if (swipeRightFunction) {
-        swipeRightFunction();
+        setTimeout(() => {
+          swipeRightFunction();
+        }, 300);
       }
     }
 
     if (touchendY < touchstartY) {
-      console.log('Swiped up');
       if (swipeUpFunction) {
-        swipeUpFunction();
+        setTimeout(() => {
+          swipeUpFunction();
+        }, 300);
       }
     }
 
     if (touchendY > touchstartY) {
-      console.log('Swiped down');
       if (swipeDownFunction) {
-        swipeDownFunction();
+        setTimeout(() => {
+          swipeDownFunction();
+        }, 300);
       }
     }
 
     if (touchendY === touchstartY) {
-      console.log('Tap');
       if (tapFunction) {
-        tapFunction();
+        setTimeout(() => {
+          tapFunction();
+        }, 300);
       }
     }
   };
