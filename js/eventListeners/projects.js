@@ -1,5 +1,5 @@
 import { nextSlide } from '../projects/nextSlide.js';
-import { prevSlide } from '../projects/previousSlide.js';
+import { prevSlide } from '../projects/prevSlide.js';
 
 export const loadProjectsEventListeners = () => {
   const nextSlideArrow = document.getElementById('projects__nav_arrow_next');
