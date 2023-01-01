@@ -9,11 +9,11 @@ setInterval(() => {
   console.log('window.innerHeight', window.innerHeight);
 }, 3000);
 
-loadCarouselSlide(currentSlide.currentSlideNumber);
-
 const loadEventListeners = () => {
   loadNavigationEventListners();
   toggleThemeEventListeners();
   loadProjectsEventListeners();
 };
 loadEventListeners();
+
+loadCarouselSlide(currentSlide.currentSlideNumber);
