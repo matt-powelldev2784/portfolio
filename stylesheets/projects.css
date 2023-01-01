@@ -6,6 +6,7 @@
   align-items: center;
   gap: 1rem;
   min-height: calc(100vh - var(---nav-height));
+  padding: 2rem 0;
 }
 @media only screen and (max-width: 992px) {
   .projects__flexbox {
@@ -81,6 +82,7 @@
     max-height: 14rem;
   }
 }
+
 @media only screen and (max-width: 441px) {
   .projects_carosel_img {
     max-height: 8rem;
@@ -92,7 +94,7 @@
 }
 @media only screen and (max-width: 992px) {
   .projects_carosel__flexbox__item2 {
-    width: 70vw;
+    width: 76vw;
     height: auto;
   }
 }
@@ -144,11 +146,6 @@
   text-justify: inter-word;
   margin: clamp(1rem, 1.5vw, 1.5rem);
   padding: 0 0.5rem;
-}
-@media only screen and (max-width: 992px) {
-  .projects_p {
-    margin: clamp(0.5rem, 1.5vw, 1.5rem);
-  }
 }
 @media only screen and (max-width: 441px) {
   .projects_p {
