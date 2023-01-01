@@ -25,7 +25,7 @@ export const addTouchDetectionEventListeners = (element, swipeFunctions) => {
 
   const handleTouch = (swipeFunctions) => {
     const { swipeLeftFunction, swipeRightFunction, swipeUpFunction, swipeDownFunction, tapFunction } = swipeFunctions;
-    const threshold = 80;
+    const threshold = 70;
 
     if (touchendX < touchstartX - threshold) {
       if (swipeLeftFunction) {
