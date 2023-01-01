@@ -2,12 +2,12 @@ export const projects = [
   {
     key: 0,
     title: 'SHOWCASE WEBSITE',
-    text: `Showcase website project built using HTML, Javascript and CSS. Flexbox, grid and media queries are utilised to 
-    provide a fully repsonsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used so the 
-    icons also change color when the light or dark theme is toggled. I have used a carousel to display the projects. I
-    have created touch detection logic so the carousel can be swiped on touch devices. I have used an intersection obsever
-    to detect when the projects section comes into view so I can toggle the display of a swipe icon to alert touch users
-    of the swipe functionality.`,
+    text: `Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised 
+    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used
+    so the icons also change colour when the light or dark theme is toggled. I have used a carousel to display the
+    projects. I have created touch detection logic so the carousel can be swiped on touch devices. I have used an
+    intersection observer to detect when the projects section comes into view so I can toggle the display of a swipe
+    icon to alert touch users of the swipe functionality.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
@@ -20,11 +20,12 @@ export const projects = [
   {
     key: 1,
     title: 'MOVIE DATA',
-    text: `Movie data project built using HTML, Javascript and CSS. The data persists in local storage. It uses the file reader api to 
-    read and store a movie image which can be uploaded when adding a new movie using a form. I have defined logic to sort by number or
-    text. Therefore I have provided ascending and descending sort functionality by year, title and rating. I have used a utility function 
-    to help with code readability and development speed, when creating dom elements. This site uses frequently uses dom manipulation to 
-    show or hide elements when navigating around.`,
+    text: `Movie data project built using HTML, JavaScript, and CSS. The data persists in local storage. It uses the 
+    file reader API to read and store a movie image which can be uploaded when adding a new movie using a form. I
+    have defined logic to sort by number or text. Therefore, I have provided ascending and descending sort
+    functionality by year, title, and rating. I have used a utility function to help with code readability and
+    development speed, when creating DOM elements. This site uses frequently uses DOM manipulation to show or
+    hide elements when browsing.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
@@ -37,9 +38,9 @@ export const projects = [
   {
     key: 2,
     title: 'HOBBY PAGE',
-    text: `Hobby page made about comedian Rob Beckett. This project is built using HTML, Javascript and CSS. Flexbox and media 
-    queries are utilised to provide a fully repsonsive layout. Javascript is used to sort the data amd manipluate the DOM to display the 5 most
-    recent tours after today's date.`,
+    text: `Hobby page made about comedian Rob Beckett. This project is built using HTML, JavaScript, and CSS. 
+    Flexbox and media queries are utilised to provide a fully responsive layout. JavaScript is used to sort
+    the data and manipulate the DOM to display the 5 most recent tours after today's date.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
@@ -65,9 +66,10 @@ export const projects = [
   {
     key: 4,
     title: 'COMMENT BOX',
-    text: `Comment box project built using HTML, Javascript and CSS. Flexbox and media queries are utilised to provide a 
-    fully repsonsive layout. The form is validated using some custom form validation logic. The most recent comments
-    appear at the top of list. The comments include the name of the person posting as well as the date and time.`,
+    text: `Comment box project built using HTML, JavaScript, and CSS. Flexbox and media queries are utilised 
+    to provide a fully responsive layout. The form is validated using some custom form validation logic. The
+    most recent comments appear at the top of list. The comments include the name of the person posting as
+    well as the date and time.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
@@ -80,7 +82,7 @@ export const projects = [
   {
     key: 5,
     title: 'PLAYER REGISTRATION',
-    text: ` An application built for my amateur football team to manage player registration for training and match
+    text: `An application built for my amateur football team to manage player registration for training and match
             days. Frontend built with React, TypeScript, Redux Toolkit and Styled Components. It utilises React
             DND Library which provides users with drag and drop functionality. The backend is created with NodeJS,
             Express, Mongo DB, Express Validator, Bcrypt and JWT. CI/CD is delivered using Circle CI. Testing
