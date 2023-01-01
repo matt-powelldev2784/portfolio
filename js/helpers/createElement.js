@@ -7,7 +7,7 @@ export const createElement = (htmlTag, htmlProps, ...childElements) => {
     }
   }
 
-  if (childElements) {
+  if (childElements && childElements.length) {
     element.append(...childElements);
   }
 

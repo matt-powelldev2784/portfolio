@@ -12,8 +12,8 @@ setInterval(() => {
 const loadEventListeners = () => {
   loadNavigationEventListners();
   toggleThemeEventListeners();
-  loadProjectsEventListeners();
+  //loadProjectsEventListeners();
 };
 loadEventListeners();
 
-loadCarouselSlide(currentSlide.currentSlideNumber);
+// loadCarouselSlide(currentSlide.currentSlideNumber);
