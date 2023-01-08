@@ -1,3 +1,5 @@
+## Matthew Powell Founders and Coders Showcase Website
+
 Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised to provide
 a fully responsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used so the icons also
 change colour when the light or dark theme is toggled. I have used a carousel to display the projects. I have created
