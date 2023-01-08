@@ -8,10 +8,10 @@ import { nextSlide } from './projects/nextSlide.js';
 import { prevSlide } from './projects/prevSlide.js';
 import { loadProjectsObserver } from './projects/projectsIntersectionObserver.js';
 
-setInterval(() => {
-  console.log('window.innerWidth', window.innerWidth);
-  console.log('window.innerHeight', window.innerHeight);
-}, 3000);
+// setInterval(() => {
+//   console.log('window.innerWidth', window.innerWidth);
+//   console.log('window.innerHeight', window.innerHeight);
+// }, 3000);
 
 loadCarouselSlide(currentSlide.currentSlideNumber);
 loadNavigationEventListners();
