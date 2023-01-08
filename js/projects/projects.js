@@ -37,6 +37,22 @@ export const projects = [
   },
   {
     key: 2,
+    title: 'FEATURE GAME',
+    text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect, which 
+    is actually is just two images constantly repeating in the viewpoint. The game is loosely based on the 
+    google dinosaur game and this YouTube tutorial: youtube.com/watch?v=47eXVRJKdkU&t=1280s. It uses the
+    requestAnimationFrame method to constanly update the dom after each repaint.`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+    ],
+    image: './img/projects/junior_dev_person_title.png',
+    imageAlt: 'Junior Dev Person Title Image',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
+  },
+  {
+    key: 3,
     title: 'HOBBY PAGE',
     text: `Hobby page made about comedian Rob Beckett. This project is built using HTML, JavaScript, and CSS. 
     Flexbox and media queries are utilised to provide a fully responsive layout. JavaScript is used to sort
@@ -46,12 +62,12 @@ export const projects = [
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
       { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
     ],
-    image: 'img/projects/rob_beckett.jpg',
+    image: './img/projects/rob_beckett.jpg',
     imageAlt: 'Headshot of Rob Becket Comedian',
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_hobby_page/',
   },
   {
-    key: 3,
+    key: 4,
     title: 'PROJECT GALLERY',
     text: `Project gallery cards made using HTML, CSS, Javascript and Flexbox.`,
     techImages: [
@@ -64,7 +80,7 @@ export const projects = [
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_project_gallery/',
   },
   {
-    key: 4,
+    key: 5,
     title: 'COMMENT BOX',
     text: `Comment box project built using HTML, JavaScript, and CSS. Flexbox and media queries are utilised 
     to provide a fully responsive layout. The form is validated using some custom form validation logic. The
@@ -80,7 +96,7 @@ export const projects = [
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_comment_box/',
   },
   {
-    key: 5,
+    key: 6,
     title: 'PLAYER REGISTRATION',
     text: `An application built for my amateur football team to manage player registration for training and match
             days. Frontend built with React, TypeScript, Redux Toolkit and Styled Components. It utilises React
