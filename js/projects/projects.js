@@ -23,7 +23,7 @@ export const projects = [
     file reader API to read and store a movie image which can be uploaded when adding a new movie using a form. I
     have defined logic to sort by number or text. Therefore, I have provided ascending and descending sort
     functionality by year, title, and rating. I have used a utility function to help with code readability and
-    development speed, when creating DOM elements. This site uses frequently uses DOM manipulation to show or
+    development speed, when creating DOM elements. This site frequently uses DOM manipulation to show or
     hide elements when browsing.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
