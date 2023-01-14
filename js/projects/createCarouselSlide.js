@@ -33,7 +33,7 @@ export const createCarouselSlide = (projectInfo) => {
   );
 
   const carouselItem = createElement(
-    'div',
+    'li',
     { class: 'projects_carosel__wrapper', id: `projects_carousel__item${key}` },
     flexBoxItem1,
     flexBoxItem2
