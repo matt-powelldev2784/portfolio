@@ -1,23 +1,50 @@
 export const projects = [
   {
     key: 0,
-    title: 'SHOWCASE WEBSITE',
-    text: `Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised 
-    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used
-    so the icons also change colour when the light or dark theme is toggled. I have used a carousel to display the
-    projects. I have created touch detection logic, so the carousel can be swiped on touch devices, and used an
-    intersection observer to toggle the display of a swipe icon to alert touch users of the swipe functionality.`,
+    title: 'HOBBY PAGE',
+    text: `Hobby page made about comedian Rob Beckett. This project is built using HTML, JavaScript, and CSS. 
+    Flexbox and media queries are utilised to provide a fully responsive layout. JavaScript is used to sort
+    the data and manipulate the DOM to display the 5 most recent tours after today's date.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
       { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
     ],
-    image: './img/projects/showcase.png',
-    imageAlt: 'Matthew Powell showcase title image',
-    href: 'https://matt-powelldev2784.github.io/founders_and_coders_website/',
+    image: './img/projects/rob_beckett.jpg',
+    imageAlt: 'Headshot of Rob Becket Comedian',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_hobby_page/',
   },
   {
     key: 1,
+    title: 'COMMENT BOX',
+    text: `Comment box project built using HTML, JavaScript, and CSS. Flexbox and media queries are utilised 
+    to provide a fully responsive layout. The form is validated using some custom form validation logic. The
+    most recent comments appear at the top of list. The comments include the name of the person posting as
+    well as the date and time.`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+    ],
+    image: './img/projects/comment_box_logo2.svg',
+    imageAlt: 'Comment Box Logo',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_comment_box/',
+  },
+  {
+    key: 2,
+    title: 'PROJECT GALLERY',
+    text: `Project gallery cards made using HTML, CSS, Javascript and Flexbox.`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+    ],
+    image: 'img/projects/gallery.jpg',
+    imageAlt: 'Three people sitting on bench in a gallery',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_project_gallery/',
+  },
+  {
+    key: 3,
     title: 'MOVIE DATA',
     text: `Movie data project built using HTML, JavaScript, and CSS. The data persists in local storage. It uses the 
     file reader API to read and store a movie image which can be uploaded when adding a new movie using a form. I
@@ -35,7 +62,25 @@ export const projects = [
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_moive_data/',
   },
   {
-    key: 2,
+    key: 4,
+    title: 'SHOWCASE WEBSITE',
+    text: `Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised 
+    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used
+    so the icons also change colour when the light or dark theme is toggled. I have used a carousel to display the
+    projects. I have created touch detection logic, so the carousel can be swiped on touch devices, and used an
+    intersection observer to toggle the display of a swipe icon to alert touch users of the swipe functionality.`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+    ],
+    image: './img/projects/showcase.png',
+    imageAlt: 'Matthew Powell showcase title image',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_website/',
+  },
+
+  {
+    key: 5,
     title: 'FEATURE GAME',
     text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect, which 
     is actually is just two images constantly repeating in the viewpoint. The game is loosely based on the 
@@ -49,50 +94,6 @@ export const projects = [
     image: './img/projects/junior_dev_person_title.png',
     imageAlt: 'Junior Dev Person Title Image',
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
-  },
-  {
-    key: 3,
-    title: 'HOBBY PAGE',
-    text: `Hobby page made about comedian Rob Beckett. This project is built using HTML, JavaScript, and CSS. 
-    Flexbox and media queries are utilised to provide a fully responsive layout. JavaScript is used to sort
-    the data and manipulate the DOM to display the 5 most recent tours after today's date.`,
-    techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
-    ],
-    image: './img/projects/rob_beckett.jpg',
-    imageAlt: 'Headshot of Rob Becket Comedian',
-    href: 'https://matt-powelldev2784.github.io/founders_and_coders_hobby_page/',
-  },
-  {
-    key: 4,
-    title: 'PROJECT GALLERY',
-    text: `Project gallery cards made using HTML, CSS, Javascript and Flexbox.`,
-    techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
-    ],
-    image: 'img/projects/gallery.jpg',
-    imageAlt: 'Three people sitting on bench in a gallery',
-    href: 'https://matt-powelldev2784.github.io/founders_and_coders_project_gallery/',
-  },
-  {
-    key: 5,
-    title: 'COMMENT BOX',
-    text: `Comment box project built using HTML, JavaScript, and CSS. Flexbox and media queries are utilised 
-    to provide a fully responsive layout. The form is validated using some custom form validation logic. The
-    most recent comments appear at the top of list. The comments include the name of the person posting as
-    well as the date and time.`,
-    techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
-    ],
-    image: './img/projects/comment_box_logo2.svg',
-    imageAlt: 'Comment Box Logo',
-    href: 'https://matt-powelldev2784.github.io/founders_and_coders_comment_box/',
   },
   {
     key: 6,
