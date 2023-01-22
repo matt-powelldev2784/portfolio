@@ -22,7 +22,7 @@ export const createCarouselSlide = (projectInfo) => {
   });
   const techStackContainer = createElement('div', { class: 'projects__tech_stack' }, ...techStack);
   const button = createElement('button', { class: 'projects__button' }, 'Click here to visit site');
-  const buttonContainer = createElement('a', { href: href }, button);
+  const buttonContainer = createElement('a', { href: href, target: '_blank' }, button);
   const flexBoxItem2 = createElement(
     'div',
     { class: 'projects_carosel__flexbox__item2' },
