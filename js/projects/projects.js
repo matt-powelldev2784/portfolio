@@ -85,7 +85,7 @@ export const projects = [
     text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect, which 
     is just two images constantly repeating in the viewpoint. The game is loosely based on the google dinosaur game
     and this YouTube tutorial: youtube.com/watch?v=47eXVRJKdkU&t=1280s. It uses the requestAnimationFrame method to
-    constantly update the DOM after each repaint. A simple backend built using NodeJS and Express is used to store
+    constantly update the DOM after each repaint. A backend built using NodeJS and Express is used to store
     the high scores. Touch detection logic is used to enable play on touch devices.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
