@@ -65,8 +65,8 @@ export const projects = [
     key: 4,
     title: 'SHOWCASE WEBSITE',
     text: `Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised 
-    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG sprites are used
-    so the icons also change colour when the light or dark theme is toggled. I have used a carousel to display the
+    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG's are used
+    to allow the icons to change colour when the light or dark theme is toggled. I have used a carousel to display the
     projects. I have created touch detection logic, so the carousel can be swiped on touch devices, and used an
     intersection observer to toggle the display of a swipe icon to alert touch users of the swipe functionality.`,
     techImages: [
