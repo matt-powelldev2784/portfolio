@@ -65,7 +65,7 @@ export const projects = [
     key: 4,
     title: 'SHOWCASE WEBSITE',
     text: `Showcase website project built using HTML, JavaScript, and CSS. Flexbox, grid and media queries are utilised 
-    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG's are used
+    to provide a fully responsive layout. A light and dark theme can be toggled using the menu. SVG's sprites are used
     to allow the icons to change colour when the light or dark theme is toggled. I have used a carousel to display the
     projects. I have created touch detection logic, so the carousel can be swiped on touch devices, and used an
     intersection observer to toggle the display of a swipe icon to alert touch users of the swipe functionality.`,
@@ -82,11 +82,10 @@ export const projects = [
   {
     key: 5,
     title: 'FEATURE GAME',
-    text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect, which 
-    is just two images constantly repeating in the viewpoint. The game is loosely based on the google dinosaur game
-    and this YouTube tutorial: youtube.com/watch?v=47eXVRJKdkU&t=1280s. It uses the requestAnimationFrame method to
-    constantly update the DOM after each repaint. A backend built using NodeJS and Express is used to store
-    the high scores. Touch detection logic is used to enable play on touch devices.`,
+    text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect. The game is 
+    loosely based on the google dinosaur game and this YouTube tutorial: youtube.com/watch?v=47eXVRJKdkU&t=1280s. It 
+    uses the requestAnimationFrame method to constantly update the DOM after each repaint. A backend built using 
+    NodeJS and Express is used to store the high scores. Touch detection logic is used to enable play on touch devices.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
