@@ -13,7 +13,7 @@
 @media only screen and (max-width: 992px) {
   .hompage__flexbox {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 @media only screen and (max-width: 441px) {
@@ -33,7 +33,7 @@
 @media only screen and (max-width: 992px) {
   .homepage__flexbox_item1 {
     width: 100%;
-    margin-top: 0.3rem;
+    margin-top: 2rem;
   }
 }
 
@@ -49,7 +49,7 @@
 }
 @media only screen and (max-width: 992px) {
   .homepage_text__h1 {
-    font-size: clamp(2.8rem, 8vw, 7rem);
+    font-size: clamp(2rem, 8vw, 7rem);
     top: 0.7rem;
   }
 }
@@ -60,21 +60,20 @@
 }
 
 .homepage_text__h2 {
-  margin: 0rem 0.5rem;
   color: var(--secondary-text);
-  font-size: clamp(1.02rem, 2.83vw, 4rem);
+  font-size: clamp(1.02rem, 4.35vw, 6rem);
   font-weight: 900;
   width: max-content;
   margin: 0 auto;
 }
 @media only screen and (max-width: 992px) {
   .homepage_text__h2 {
-    font-size: clamp(1.42rem, 4.04vw, 7rem);
+    font-size: clamp(1rem, 6.3vw, 12rem);
   }
 }
 @media only screen and (max-width: 441px) {
   .homepage_text__h2 {
-    font-size: clamp(1rem, 4.8vw, 7rem);
+    font-size: clamp(1.5rem, 7.4vw, 15rem);
   }
 }
 
@@ -102,7 +101,7 @@
 
 .homepage__portrait {
   margin: 0 auto;
-  width: clamp(15rem, 32vw, 25rem);
+  width: clamp(15rem, 32vw, 22rem);
 }
 @media only screen and (max-width: 992px) {
   .homepage__portrait {
