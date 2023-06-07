@@ -3,7 +3,7 @@ export const projects = [
     key: 0,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
-Built with NextJs, TypeScript, Redux, Postgres, Prisma, TailwindCSS, Formik, Yup.
+Built with NextJs, TypeScript, Redux, Postgres, Prisma, TailwindCSS, Formik and Yup.
 Utilised NextJs features for SSR, SSG, API creation, dynamic routes, and image optimisation.
 User authentication using OAuth providers and secure email links using Next-Auth.
 Payment gateway integrated using Stripe.`,
