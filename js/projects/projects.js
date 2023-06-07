@@ -5,7 +5,7 @@ export const projects = [
     text: `A food takeaway application built to explore the main features of NextJs.
 Built with NextJs, TypeScript, Redux, Postgres, Prisma, TailwindCSS, Formik and Yup.
 Utilised NextJs features for SSR, SSG, API creation, dynamic routes, and image optimisation.
-User authentication using OAuth providers and secure email links using Next-Auth.
+User authentication implemented with OAuth providers and secure email links using Next-Auth.
 Payment gateway integrated using Stripe.`,
     techImages: [
       { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
