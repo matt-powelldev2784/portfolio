@@ -9,7 +9,7 @@ User authentication using OAuth providers and secure email links using Next-Auth
 Payment gateway integrated using Stripe.`,
     techImages: [
       { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
-      { src: './img/svg_sprites/nodeJS_icon.svg', alt: 'NodeJs Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
       { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
