@@ -165,7 +165,7 @@
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  margin: clamp(0.5rem, 1.5vw, 1.5rem) auto;
+  margin: 1rem auto;
 }
 @media only screen and (max-width: 441px) {
   .projects__tech_stack {
@@ -175,8 +175,8 @@
 
 .projects__icon {
   width: clamp(2rem, 4vw, 3rem);
-  height: clamp(2.4rem, 4vw, 3rem);
-  margin: clamp(0.1rem, 2vw, 0.3rem);
+  height: clamp(2rem, 4vw, 3rem);
+  margin: clamp(0.1rem, 2vw, 0.5rem);
 }
 
 /* ------------------------------------------------------------------------- */
