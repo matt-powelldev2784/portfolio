@@ -26,7 +26,7 @@ Payment gateway integrated using Stripe.`,
           URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server.`,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
-      { src: './img/svg_sprites/nodeJS_icon.svg', alt: 'NodeJs Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
     ],
     image: './img/projects/aws.png',
@@ -42,9 +42,7 @@ Payment gateway integrated using Stripe.`,
             Express, Mongo DB, Express Validator, Bcrypt and JWT. CI/CD is delivered using Circle CI. Testing
             implemented with React Testing Library and Jest.`,
     techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
       { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
