@@ -54,9 +54,8 @@ Payment gateway integrated using Stripe.`,
   },
   {
     key: 3,
-    title: 'FEATURE GAME',
-    text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect. The game is 
-    loosely based on the google dinosaur game and this YouTube tutorial: youtube.com/watch?v=47eXVRJKdkU&t=1280s. It 
+    title: 'PLATFORM GAME',
+    text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect. It 
     uses the requestAnimationFrame method to constantly update the DOM after each repaint. Game tokens are generated randomly
     and removed from the DOM once they have travelled across the screen. A backend built using NodeJS and Express is 
     used to store the high scores. Touch detection logic is used to enable play on touch devices.`,
