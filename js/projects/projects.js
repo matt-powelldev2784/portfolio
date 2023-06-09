@@ -12,7 +12,7 @@ export const projects = [
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
     ],
     image: './img/projects/aws.png',
-    imageAlt: 'Headshot of Rob Becket Comedian',
+    imageAlt: 'AWS Logo',
     href: 'https://github.com/matt-powelldev2784/AWS_EC2_Lamda_Image_Library',
   },
   {
@@ -74,16 +74,16 @@ Payment gateway integrated using Stripe.`,
   {
     key: 4,
     title: 'AGENCY WEBSITE',
-    text: `'A website made for a fictonal agency from the future. Backend created with NodeJS, Express and Nodemailer 
-     which sends email repsonse when form is submitted`,
+    text: `A website made for a fictonal agency from the future. Backend created with NodeJS, Express and Nodemailer 
+     which sends email repsonse when form is submitted.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
       { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
     ],
-    image: './img/projects/junior.png',
-    imageAlt: 'Junior Dev Person Title Image',
-    href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
+    image: './img/projects/robot.png',
+    imageAlt: 'Image of dummy',
+    href: 'https://generategeorgina.github.io/fac-agency/',
   },
 ];
