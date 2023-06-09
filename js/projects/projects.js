@@ -1,6 +1,22 @@
 export const projects = [
   {
     key: 0,
+    title: 'NODEJS IMAGE LIBRARY',
+    text: `A Node JS API Server built to enable a front end to serve an image library. Images are hosted in an AWS S3 Bucket.
+          The node server is hosted in an AWS EC2 Instance. It uses an AWS Lamda function to generate image thumbnails. Secure pre-signed
+          URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server. Front end currently under
+          construction: https://aws-image-library.netlify.app/ `,
+    techImages: [
+      { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+    ],
+    image: './img/projects/aws.png',
+    imageAlt: 'Headshot of Rob Becket Comedian',
+    href: 'https://github.com/matt-powelldev2784/AWS_EC2_Lamda_Image_Library',
+  },
+  {
+    key: 1,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
 Built with NextJs, TypeScript, Redux, Postgres, Prisma, TailwindCSS, Formik and Yup.
@@ -18,21 +34,7 @@ Payment gateway integrated using Stripe.`,
     imageAlt: 'Curry Club Logo',
     href: 'https://github.com/matt-powelldev2784/nextjs-food-take-away-app',
   },
-  {
-    key: 1,
-    title: 'NODEJS IMAGE LIBRARY',
-    text: `A Node JS API Server built to enable a front end to serve an image library. Images are hosted in an AWS S3 Bucket.
-          The node server is hosted in an AWS EC2 Instance. It uses an AWS Lamda function to generate image thumbnails. Secure pre-signed
-          URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server.`,
-    techImages: [
-      { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-    ],
-    image: './img/projects/aws.png',
-    imageAlt: 'Headshot of Rob Becket Comedian',
-    href: 'https://github.com/matt-powelldev2784/AWS_EC2_Lamda_Image_Library',
-  },
+
   {
     key: 2,
     title: 'PLAYER REGISTRATION',
@@ -65,7 +67,22 @@ Payment gateway integrated using Stripe.`,
       { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
     ],
-    image: './img/projects/junior_dev_person_title.png',
+    image: './img/projects/junior.png',
+    imageAlt: 'Junior Dev Person Title Image',
+    href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
+  },
+  {
+    key: 4,
+    title: 'AGENCY WEBSITE',
+    text: `'A website made for a fictonal agency from the future. Backend created with NodeJS, Express and Nodemailer 
+     which sends email repsonse when form is submitted`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+    ],
+    image: './img/projects/junior.png',
     imageAlt: 'Junior Dev Person Title Image',
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
   },
