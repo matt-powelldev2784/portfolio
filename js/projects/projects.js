@@ -4,8 +4,8 @@ export const projects = [
     title: 'NODEJS IMAGE LIBRARY',
     text: `A Node JS API Server built to enable a front end to serve an image library. Images are hosted in an AWS S3 Bucket.
           The node server is hosted in an AWS EC2 Instance. It uses an AWS Lamda function to generate image thumbnails. Secure pre-signed
-          URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server. Front end currently under
-          construction: http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com  `,
+          URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server. The front end is currently under
+          construction `,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
@@ -13,7 +13,7 @@ export const projects = [
     ],
     image: './img/projects/aws.png',
     imageAlt: 'AWS Logo',
-    href: 'https://github.com/matt-powelldev2784/AWS_EC2_Lamda_Image_Library',
+    href: 'http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com',
   },
   {
     key: 1,
