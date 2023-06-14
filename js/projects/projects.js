@@ -5,7 +5,7 @@ export const projects = [
     text: `A Node JS API Server built to enable a front end to serve an image library. Images are hosted in an AWS S3 Bucket.
           The node server is hosted in an AWS EC2 Instance. It uses an AWS Lamda function to generate image thumbnails. Secure pre-signed
           URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server. Front end currently under
-          construction: https://aws-image-library.netlify.app/ `,
+          construction: http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com  `,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
