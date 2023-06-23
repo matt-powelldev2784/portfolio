@@ -14,7 +14,7 @@ export const projects = [
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
       { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
     ],
-    image: './img/projects/aws.png',
+    image: './img/projects/re_dry.svg',
     imageAlt: 'AWS Logo',
     href: 'http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com',
   },
@@ -76,6 +76,21 @@ Payment gateway integrated using Stripe.`,
   },
   {
     key: 4,
+    title: 'RECIPE WEBSITE',
+    text: `Recipe Finder Website designed to help users search and discover a wide variety of recipes. It 
+    provides a user-friendly interface to browse through an extensive collection of recipes, search for
+    specific dishes or ingredients.`,
+    techImages: [
+      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
+    ],
+    image: './img/projects/ilikeat.svg',
+    imageAlt: 'Image of dummy',
+    href: 'https://cazanelena.github.io/recipe-website/',
+  },
+  {
+    key: 5,
     title: 'AGENCY WEBSITE',
     text: `A website made for a fictonal agency from the future. Backend created with NodeJS, Express and Nodemailer 
      which sends email repsonse when form is submitted.`,
