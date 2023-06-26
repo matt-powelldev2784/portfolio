@@ -2,10 +2,10 @@ export const projects = [
   {
     key: 0,
     title: 'NODEJS IMAGE LIBRARY',
-    text: `A Node JS API Server built to enable a front end to serve an image library. CICD implmented using github actions. Images are hosted in an AWS S3 Bucket.
-          The node server is hosted in an AWS EC2 Instance. It uses an AWS Lamda function to generate image thumbnails. Secure pre-signed
-          URL's are provided to upload the images directly to AWS S3 which minimises the load on the Node Server. The front end is currently under
-          construction, built with React, Typescript and Redux Toolkit.`,
+    text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
+    Express and MongoDB. Server is hosted in an AWS EC2 Instance. Images are hosted in an AWS S3 Bucket.
+    CICD implemented using Github actions. AWS Lamda function is used to generate image thumbnails.
+    Secure pre-signed URL's are provided to upload the images directly to AWS S3 which minimises the load on the server.`,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
