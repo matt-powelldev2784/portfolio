@@ -1,7 +1,7 @@
 export const projects = [
   {
     key: 0,
-    title: 'NODEJS IMAGE LIBRARY',
+    title: 'AWS NODEJS REACT IMAGE LIBRARY',
     text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
     Express and MongoDB. Server is hosted in an AWS EC2 Instance. Images are hosted in an AWS S3 Bucket.
     CICD implemented using Github actions. AWS Lamda function is used to generate image thumbnails.
