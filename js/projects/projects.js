@@ -80,7 +80,7 @@ Payment gateway integrated using Stripe.`,
     text: `Recipe Finder Website designed to help users search and discover a wide variety of recipes. It 
     provides a user-friendly interface to browse through an extensive collection of recipes, search for
     specific dishes or ingredients. It utilises async functions to peform API calls and handle loading and
-    error states`,
+    error states.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
