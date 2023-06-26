@@ -1,10 +1,10 @@
 export const projects = [
   {
     key: 0,
-    title: 'AWS NODEJS REACT IMAGE LIBRARY',
+    title: 'AWS IMAGE LIBRARY',
     text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
-    Express and MongoDB. Server is hosted in an AWS EC2 Instance. Images are hosted in an AWS S3 Bucket.
-    CICD implemented using Github actions. AWS Lamda function is used to generate image thumbnails.
+    Express and MongoDB. Server is deployed in an AWS EC2 Instance. Images are hosted in an AWS S3 Bucket.
+    CICD implemented using Github actions.  Image thumbnail generation is facilitated by an AWS Lambda function.
     Secure pre-signed URL's are provided to upload the images directly to AWS S3 which minimises the load on the server.`,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
@@ -79,7 +79,8 @@ Payment gateway integrated using Stripe.`,
     title: 'RECIPE WEBSITE',
     text: `Recipe Finder Website designed to help users search and discover a wide variety of recipes. It 
     provides a user-friendly interface to browse through an extensive collection of recipes, search for
-    specific dishes or ingredients.`,
+    specific dishes or ingredients. It utilises async functions to peform API calls and handle loading and
+    error states`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
