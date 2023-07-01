@@ -22,7 +22,7 @@ export const projects = [
     key: 1,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
-Built with NextJs, TypeScript, Redux, Postgres, Prisma, TailwindCSS, Formik and Yup.
+Built with NextJs, TypeScript, Redux, Postgres, Prism and TailwindCSS.
 Utilised NextJs features for SSR, SSG, API creation, dynamic routes, and image optimisation.
 User authentication implemented with OAuth providers and secure email links using Next-Auth.
 Payment gateway integrated using Stripe.`,
@@ -35,7 +35,7 @@ Payment gateway integrated using Stripe.`,
     ],
     image: './img/projects/curry_club_pink.svg',
     imageAlt: 'Curry Club Logo',
-    href: 'https://github.com/matt-powelldev2784/nextjs-food-take-away-app',
+    href: 'https://nextjs-food-take-away-app-xm8o.vercel.app/',
   },
 
   {
