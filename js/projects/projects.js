@@ -3,9 +3,10 @@ export const projects = [
     key: 0,
     title: 'AWS IMAGE LIBRARY',
     text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
-    Express and MongoDB. Server is deployed in an AWS EC2 Instance. Images are hosted in an AWS S3 Bucket.
-    CICD implemented using Github actions.  Image thumbnail generation is facilitated by an AWS Lambda function.
-    Secure pre-signed URL's are provided to upload the images directly to AWS S3 which minimises the load on the server.`,
+    Express and MongoDB. Server is deployed in an AWS EC2 Instance. Images are hosted in an AWS S3
+    Bucket. Image thumbnail generation is facilitated by an AWS Lambda function. Secure pre-signed
+    URL's are provided to upload the images directly to AWS S3 which minimises the load on the
+    server. CICD implemented using Github actions. `,
     techImages: [
       { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
