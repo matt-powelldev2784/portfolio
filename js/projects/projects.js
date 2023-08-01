@@ -42,7 +42,7 @@ Payment gateway integrated using Stripe.`,
   {
     key: 2,
     title: 'PLAYER REGISTRATION',
-    text: `An application built for my amateur football team to manage player registration for training and match
+    text: `An application built for my local football team to manage player registration for training and match
             days. Frontend built with React, TypeScript, Redux Toolkit and Styled Components. It utilises React
             DND Library which provides users with drag and drop functionality. The backend is created with NodeJS,
             Express, Mongo DB, Express Validator, Bcrypt and JWT. CI/CD is delivered using Circle CI. Testing
