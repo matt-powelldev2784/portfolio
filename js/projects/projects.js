@@ -23,7 +23,7 @@ export const projects = [
     key: 1,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
-Built with NextJs, TypeScript, Redux, Postgres, Prism and TailwindCSS.
+Built with NextJs, TypeScript, Redux, Postgres, Prisma and TailwindCSS.
 Utilised NextJs features for SSR, SSG, API creation, dynamic routes, and image optimisation.
 User authentication implemented with OAuth providers and secure email links using Next-Auth.
 Payment gateway integrated using Stripe.`,
@@ -74,36 +74,5 @@ Payment gateway integrated using Stripe.`,
     image: './img/projects/junior.png',
     imageAlt: 'Junior Dev Person Title Image',
     href: 'https://matt-powelldev2784.github.io/founders_and_coders_feature_game/',
-  },
-  {
-    key: 4,
-    title: 'RECIPE WEBSITE',
-    text: `Recipe Finder Website designed to help users search and discover a wide variety of recipes. It 
-    provides a user-friendly interface to browse through an extensive collection of recipes, search for
-    specific dishes or ingredients. It utilises async functions to peform API calls and handle loading and
-    error states.`,
-    techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
-    ],
-    image: './img/projects/ilikeat.svg',
-    imageAlt: 'Image of dummy',
-    href: 'https://cazanelena.github.io/recipe-website/',
-  },
-  {
-    key: 5,
-    title: 'AGENCY WEBSITE',
-    text: `A website made for a fictonal agency from the future. Backend created with NodeJS, Express and Nodemailer 
-     which sends email repsonse when form is submitted.`,
-    techImages: [
-      { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/css_icon.svg', alt: 'CSS Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-    ],
-    image: './img/projects/robot.png',
-    imageAlt: 'Image of dummy',
-    href: 'https://generategeorgina.github.io/fac-agency/',
   },
 ];
