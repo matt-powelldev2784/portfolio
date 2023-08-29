@@ -2,19 +2,22 @@
   display: flex;
   gap: 6rem;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 3rem auto;
   min-height: calc(100vh - var(---nav-height));
+  /* border: 2px solid green; */
 }
 @media only screen and (max-width: 441px) {
   .about_flexbox {
     margin: 0 auto;
     gap: 1rem;
+     align-items: flex-start
   }
 }
 
 .about_flexbox__item {
   padding: 1rem;
+  
 }
 
 /* ------------------------------------------------------------------------- */
