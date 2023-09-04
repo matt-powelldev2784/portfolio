@@ -28,19 +28,28 @@
 }
 
 .homepage__images{
-  height: 4rem;
+  height: clamp(2rem, 5.58vw, 4rem);
   width: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 1rem;;
+  margin-top: 1.5vw;
+}
+@media only screen and (max-width: 441px) {
+  .homepage__images {
+    margin-top: 0.6rem;
+  }
 }
 
+
 .homepage__icon{
-  height: 4rem;
+  height:  clamp(2rem, 4.5vw, 4rem);
 }
+
+
+
 
 .homepage__flexbox_item1 {
   width: 58%;
