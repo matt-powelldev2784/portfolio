@@ -27,6 +27,21 @@
   }
 }
 
+.homepage__images{
+  height: 4rem;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;;
+}
+
+.homepage__icon{
+  height: 4rem;
+}
+
 .homepage__flexbox_item1 {
   width: 58%;
 }
