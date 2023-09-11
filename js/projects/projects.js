@@ -21,6 +21,23 @@ export const projects = [
   },
   {
     key: 1,
+    title: 'MAX VOLTS',
+    text: `Static website and invoicing dashboard built for electrical contractor. Built With: NextJs, Typescript, Redux, Prisma, Postgres and Tailwind CSS. 
+    PDF invoices generated on demand in the browser. User authentication using OAuth providers and secure email links using Next-Auth. Dashboard built for easy 
+    storage and retrieval of all client, product and invoicing data.`,
+    techImages: [
+      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+      { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
+    ],
+    image: './img/projects/max_volts.svg',
+    imageAlt: 'Max Volts Logo',
+    href: 'https://max-volts.vercel.app/',
+  },
+  {
+    key: 2,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
 Built with NextJs, TypeScript, Redux, Postgres, Prisma and TailwindCSS.
@@ -39,25 +56,6 @@ Payment gateway integrated using Stripe.`,
     href: 'https://nextjs-food-take-away-app-xm8o.vercel.app/',
   },
 
-  {
-    key: 2,
-    title: 'PLAYER REGISTRATION',
-    text: `An application built for my local football team to manage player registration for training and match
-            days. Frontend built with React, TypeScript, Redux Toolkit and Styled Components. It utilises React
-            DND Library which provides users with drag and drop functionality. The backend is created with NodeJS,
-            Express, Mongo DB, Express Validator, Bcrypt and JWT. CI/CD is delivered using Circle CI. Testing
-            implemented with React Testing Library and Jest.`,
-    techImages: [
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
-      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-      { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
-    ],
-    image: './img/projects/ot_crest.png',
-    imageAlt: 'Old Throntonains FC Crest',
-    href: 'https://otsregister.netlify.app/',
-  },
   {
     key: 3,
     title: 'PLATFORM GAME',
