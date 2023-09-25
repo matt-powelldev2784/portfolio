@@ -34,7 +34,7 @@ export const projects = [
     ],
     image: './img/projects/max_volts.svg',
     imageAlt: 'Max Volts Logo',
-    href: 'https://max-volts.vercel.app/',
+    href: 'https://max-volts-preview.vercel.app/',
   },
   {
     key: 2,
