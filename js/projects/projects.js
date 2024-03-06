@@ -16,11 +16,25 @@ export const projects = [
       { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
     ],
     image: './img/projects/re_dry.svg',
-    imageAlt: 'AWS Logo',
+    imageAlt: 'ReDry Logo',
     href: 'http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com',
   },
   {
     key: 1,
+    title: 'PLAN ME',
+    text: `A smartphone app built to manage the work schedule for window cleaning professionals. Built with: React Native, 
+    Typescript and Firebase. Custom diary system built for scheduling of client appointments, with a feature for handling
+    recurring entries. User authentication implemented using Google as a OAuth provider using firebase.`,
+    techImages: [
+      { src: './img/svg_sprites/react_icon.svg', alt: 'NextJS Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+    ],
+    image: './img/projects/plan_me.svg',
+    imageAlt: 'PlanME Logo',
+    href: 'https://planme-windows.netlify.app//',
+  },
+  {
+    key: 2,
     title: 'MAX VOLTS',
     text: `Static website and invoicing dashboard built for electrical contractor. Built With: NextJs, Typescript, Redux, Prisma, Postgres and Tailwind CSS. 
     PDF invoices generated on demand in the browser. User authentication using OAuth providers and secure email links using Next-Auth. Dashboard built for easy 
@@ -37,7 +51,7 @@ export const projects = [
     href: 'https://max-volts-preview.vercel.app/',
   },
   {
-    key: 2,
+    key: 3,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJs.
 Built with NextJs, TypeScript, Redux, Postgres, Prisma and TailwindCSS.
@@ -57,7 +71,7 @@ Payment gateway integrated using Stripe.`,
   },
 
   {
-    key: 3,
+    key: 4,
     title: 'PLATFORM GAME',
     text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect. It 
     uses the requestAnimationFrame method to constantly update the DOM after each repaint. Game tokens are generated randomly
