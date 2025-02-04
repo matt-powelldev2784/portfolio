@@ -2,7 +2,7 @@ export const projects = [
   {
     key: 0,
     title: 'NEXTJS TAKEAWAY APP',
-    text: `A food takeaway application built to explore the main features of NextJs.
+    text: `A food takeaway application built to explore the main features of NextJS.
           Built with NextJS, Sanity CMS, TypeScript, Postgres, Prisma and TailwindCSS.
           The site utilises NextJS features for SSR, ISR, API creation, dynamic routes, and image optimization.
           Menu items can be added, edited and deleted using the Sanity CMS.
