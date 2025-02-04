@@ -1,6 +1,24 @@
 export const projects = [
   {
     key: 0,
+    title: 'NEXTJS TAKEAWAY APP',
+    text: `A food takeaway application built to explore the main features of NextJs.
+          Built with NextJS, Sanity CMS, TypeScript, Postgres, Prisma and TailwindCSS.
+          The site utilises NextJS features for SSR, ISR, API creation, dynamic routes, and image optimization.
+          Menu items can be added, edited and deleted using the Sanity CMS.
+          User authentication implemented with Next-Auth. Payment gateway integrated using Stripe.`,
+    techImages: [
+      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+    ],
+    image: './img/projects/curry_club_pink.svg',
+    imageAlt: 'Curry Club Logo',
+    href: 'https://curry-shop.vercel.app/',
+  },
+  {
+    key: 1,
     title: 'AWS IMAGE LIBRARY',
     text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
     Express and MongoDB. Server is deployed in an AWS EC2 Instance. Images are hosted in an AWS S3
@@ -20,7 +38,7 @@ export const projects = [
     href: 'http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com',
   },
   {
-    key: 1,
+    key: 2,
     title: 'PLAN ME',
     text: `A smartphone app built to manage the work schedule for window cleaning professionals. Built with: React Native, 
     Typescript and Firebase. Custom diary system built for scheduling of client appointments, with a feature for handling
@@ -34,7 +52,7 @@ export const projects = [
     href: 'https://planme-windows.netlify.app//',
   },
   {
-    key: 2,
+    key: 3,
     title: 'MAX VOLTS',
     text: `Static website and invoicing dashboard built for electrical contractor. Built With: NextJs, Typescript, Redux, Prisma, Postgres and Tailwind CSS. 
     PDF invoices generated on demand in the browser. User authentication using OAuth providers and secure email links using Next-Auth. Dashboard built for easy 
@@ -49,25 +67,6 @@ export const projects = [
     image: './img/projects/max_volts.svg',
     imageAlt: 'Max Volts Logo',
     href: 'https://max-volts-preview.vercel.app/',
-  },
-  {
-    key: 3,
-    title: 'NEXTJS TAKEAWAY APP',
-    text: `A food takeaway application built to explore the main features of NextJs.
-Built with NextJs, TypeScript, Redux, Postgres, Prisma and TailwindCSS.
-Utilised NextJs features for SSR, SSG, API creation, dynamic routes, and image optimisation.
-User authentication implemented with OAuth providers and secure email links using Next-Auth.
-Payment gateway integrated using Stripe.`,
-    techImages: [
-      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-      { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
-    ],
-    image: './img/projects/curry_club_pink.svg',
-    imageAlt: 'Curry Club Logo',
-    href: 'https://nextjs-food-take-away-app-xm8o.vercel.app/',
   },
 
   {
