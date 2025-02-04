@@ -74,7 +74,7 @@ export const projects = [
     title: 'PLATFORM GAME',
     text: `'Junior Dev Person' is an 8-bit style game built with an endlessly scrolling background effect. It 
     uses the requestAnimationFrame method to constantly update the DOM after each repaint. Game tokens are generated randomly
-    and removed from the DOM once they have travelled across the screen. A backend built using NodeJS and Express is 
+    and removed from the DOM once they have traveled across the screen. A backend built using NodeJS and Express is 
     used to store the high scores. Touch detection logic is used to enable play on touch devices.`,
     techImages: [
       { src: './img/svg_sprites/html_icon.svg', alt: 'HTML Icon' },
