@@ -52,7 +52,7 @@ export const projects = [
     ],
     image: './img/projects/sharedcal.svg',
     imageAlt: 'Shared Calendar Logo',
-    href: ' https:/main.dg9hskkvk5sh.amplifyapp.com/ ',
+    href: ' https://main.dg9hskkvk5sh.amplifyapp.com/ ',
   },
   {
     key: 3,
