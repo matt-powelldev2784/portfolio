@@ -1,6 +1,27 @@
 export const projects = [
   {
     key: 0,
+    title: 'THE TOY SHOP',
+    text: `App built with NextJS, TypeScript, Sanity CMS, and Shopify.
+    All Pages are server-side rendered using NextJS.
+    Server actions are used to handle user interactions with the app.
+    Some client side components are used at the edge of the tree for user interactivity.
+    All Shopify data is fetched using the Shopify Storefront API using GraphQL queries.
+    Sanity CMS is used to manage the promotional content in the app.
+    End to end testing is implemented with Playwright.`,
+    techImages: [
+      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+      { src: './img/svg_sprites/playwright_icon.svg', alt: 'TypeScript Icon' },
+    ],
+    image: './img/projects/toyshop.svg',
+    imageAlt: 'Toy Shop Logo',
+    href: 'https://toytoystore.vercel.app/',
+  },
+  {
+    key: 1,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJS.
           Built with NextJS, Sanity CMS, TypeScript, Postgres, Prisma and TailwindCSS.
@@ -16,26 +37,6 @@ export const projects = [
     image: './img/projects/curry_club_pink.svg',
     imageAlt: 'Curry Club Logo',
     href: 'https://curry-shop.vercel.app/',
-  },
-  {
-    key: 1,
-    title: 'THE TOY SHOP',
-    text: `App built with NextJS, TypeScript, Sanity CMS, and Shopify.
-    All Pages are server-side rendered using NextJS.
-    Server actions are used to handle user interactions with the app.
-    Some client side components are used at the edge of the tree for user interactivity.
-    All Shopify data is fetched using the Shopify Storefront API using GraphQL queries.
-    Sanity CMS is used to manage the promotional content in the app.
-`,
-    techImages: [
-      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-    ],
-    image: './img/projects/toyshop.svg',
-    imageAlt: 'Toy Shop Logo',
-    href: 'https://toytoystore.vercel.app/',
   },
   {
     key: 2,
