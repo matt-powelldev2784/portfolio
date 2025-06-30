@@ -19,37 +19,40 @@ export const projects = [
   },
   {
     key: 1,
-    title: 'AWS IMAGE LIBRARY',
-    text: `Front end built with: React, Typescript, Redux and Tailwind CSS. Backend built with: Node, 
-    Express and MongoDB. Server is deployed in an AWS EC2 Instance. Images are hosted in an AWS S3
-    Bucket. Image thumbnail generation is facilitated by an AWS Lambda function. Secure pre-signed
-    URL's are provided to upload the images directly to AWS S3 which minimises the load on the
-    server. CICD implemented using Github actions. `,
+    title: 'THE TOY SHOP',
+    text: `App built with NextJS, TypeScript, Sanity CMS, and Shopify.
+    All Pages are server-side rendered using NextJS.
+    Server actions are used to handle user interactions with the app.
+    Some client side components are used at the edge of the tree for user interactivity.
+    All Shopify data is fetched using the Shopify Storefront API using GraphQL queries.
+    Sanity CMS is used to manage the promotional content in the app.
+`,
     techImages: [
-      { src: './img/svg_sprites/aws.png', alt: 'AWS Icon' },
+      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
       { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
       { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-      { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
     ],
-    image: './img/projects/re_dry.svg',
-    imageAlt: 'ReDry Logo',
-    href: 'http://aws-image-hosting-client.s3-website.eu-west-2.amazonaws.com',
+    image: './img/projects/toyshop.svg',
+    imageAlt: 'Toy Shop Logo',
+    href: 'https://toytoystore.vercel.app/',
   },
   {
     key: 2,
-    title: 'PLAN ME',
-    text: `A smartphone app built to manage the work schedule for window cleaning professionals. Built with: React Native, 
-    Typescript and Firebase. Custom diary system built for scheduling of client appointments, with a feature for handling
-    recurring entries. User authentication implemented using Google as a OAuth provider using firebase.`,
+    title: 'SHARED CALENDAR',
+    text: `Front End: React, Tanstack Start, TypeScript, Firebase Firestore, Firebase Authentication and TailwindCSS.
+    Allows users to create, manage, and share calendar events.
+    Users can send invitations to others, who can accept or decline event invites.
+    User authentication is implemented with Firebase Authentication and OAuth providers.
+    Unit testing is implemented with Vitest and React Testing Library.`,
     techImages: [
-      { src: './img/svg_sprites/react_icon.svg', alt: 'NextJS Icon' },
+      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
     ],
-    image: './img/projects/plan_me.svg',
-    imageAlt: 'PlanME Logo',
-    href: 'https://planme-windows.netlify.app//',
+    image: './img/projects/sharedcal.svg',
+    imageAlt: 'Shared Calendar Logo',
+    href: ' https:/main.dg9hskkvk5sh.amplifyapp.com/ ',
   },
   {
     key: 3,
