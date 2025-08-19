@@ -2,7 +2,7 @@ export const projects = [
   {
     key: 0,
     title: 'SHARED CALENDAR',
-    text: `Front End: React, Tanstack Router, TypeScript, Firebase Firestore, Firebase Authentication and TailwindCSS.
+    text: `Front End: React, Tanstack CRA, Tanstack Router, Tailwind CSS, Shadcn/ui, TypeScript, Firebase.
     Allows users to create, manage, and share calendar events.
     Users can send invitations to others, who can accept or decline event invites.
     User authentication is implemented with Firebase Authentication and OAuth providers.
