@@ -1,6 +1,23 @@
 export const projects = [
   {
     key: 0,
+    title: 'SHARED CALENDAR',
+    text: `Front End: React, Tanstack Router, TypeScript, Firebase Firestore, Firebase Authentication and TailwindCSS.
+    Allows users to create, manage, and share calendar events.
+    Users can send invitations to others, who can accept or decline event invites.
+    User authentication is implemented with Firebase Authentication and OAuth providers.
+    End to end tests implemented with playwright. Unite tests implemented with Vitest and React Testing Library.`,
+    techImages: [
+      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
+    ],
+    image: './img/projects/sharedcal.svg',
+    imageAlt: 'Shared Calendar Logo',
+    href: ' https://main.dg9hskkvk5sh.amplifyapp.com/ ',
+  },
+  {
+    key: 1,
     title: 'THE TOY SHOP',
     text: `App built with NextJS, TypeScript, Sanity CMS, and Shopify.
     All Pages are server-side rendered using NextJS.
@@ -21,7 +38,7 @@ export const projects = [
     href: 'https://toytoystore.vercel.app/',
   },
   {
-    key: 1,
+    key: 2,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJS.
           Built with NextJS, Sanity CMS, TypeScript, Postgres, Prisma and TailwindCSS.
@@ -38,23 +55,7 @@ export const projects = [
     imageAlt: 'Curry Club Logo',
     href: 'https://curry-shop.vercel.app/',
   },
-  {
-    key: 2,
-    title: 'SHARED CALENDAR',
-    text: `Front End: React, Tanstack Start, TypeScript, Firebase Firestore, Firebase Authentication and TailwindCSS.
-    Allows users to create, manage, and share calendar events.
-    Users can send invitations to others, who can accept or decline event invites.
-    User authentication is implemented with Firebase Authentication and OAuth providers.
-    Unit testing is implemented with Vitest and React Testing Library.`,
-    techImages: [
-      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
-      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-    ],
-    image: './img/projects/sharedcal.svg',
-    imageAlt: 'Shared Calendar Logo',
-    href: ' https://main.dg9hskkvk5sh.amplifyapp.com/ ',
-  },
+
   {
     key: 3,
     title: 'MAX VOLTS',
