@@ -3,7 +3,7 @@ export const projects = [
     key: 0,
     title: 'MAX VOLTS',
     text: `Static website and invoicing dashboard built for electrical contractor.
-    Built With: React, React Router, Supabase, React Query, TypeScript, Tailwind, CSS and Vite.
+    Built With: React, React Router, Supabase, React Query, TypeScript, Tailwind CSS and Vite.
     PDF invoices generated on demand in the browser. User authentication implemented with Supabase Authentication.  
     Dashboard built to view client, product and quote details stored in Supabase Postgres database.  
     Testing implemented with Vitest, React Testing Library and Playwright.`,
