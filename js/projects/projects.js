@@ -1,6 +1,22 @@
 export const projects = [
   {
     key: 0,
+    title: 'MAX VOLTS',
+    text: `Static website and invoicing dashboard built for electrical contractor.
+    Built With: React, React Router, Supabase, React Query, TypeScript, Tailwind, CSS and Vite.
+    PDF invoices generated on demand in the browser. User authentication implemented with Supabase Authentication.  
+    Dashboard built to view client, product and quote details stored in Supabase Postgres database.  
+    Testing implemented with Vitest, React Testing Library and Playwright.`,
+    techImages: [
+      { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
+      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
+    ],
+    image: './img/projects/max_volts.svg',
+    imageAlt: 'Max Volts Logo',
+    href: 'https://max-volts-spa.netlify.app/',
+  },
+  {
+    key: 1,
     title: 'SHARED CALENDAR',
     text: `Front End: React, Tanstack CRA, Tanstack Router, Tailwind CSS, Shadcn/ui, TypeScript, Firebase.
     Allows users to create, manage, and share calendar events.
@@ -17,7 +33,7 @@ export const projects = [
     href: ' https://main.dg9hskkvk5sh.amplifyapp.com/ ',
   },
   {
-    key: 1,
+    key: 2,
     title: 'THE TOY SHOP',
     text: `App built with NextJS, TypeScript, Sanity CMS, and Shopify.
     All Pages are server-side rendered using NextJS.
@@ -38,7 +54,7 @@ export const projects = [
     href: 'https://toytoystore.vercel.app/',
   },
   {
-    key: 2,
+    key: 3,
     title: 'NEXTJS TAKEAWAY APP',
     text: `A food takeaway application built to explore the main features of NextJS.
           Built with NextJS, Sanity CMS, TypeScript, Postgres, Prisma and TailwindCSS.
@@ -54,24 +70,6 @@ export const projects = [
     image: './img/projects/curry_club_pink.svg',
     imageAlt: 'Curry Club Logo',
     href: 'https://curry-shop.vercel.app/',
-  },
-
-  {
-    key: 3,
-    title: 'MAX VOLTS',
-    text: `Static website and invoicing dashboard built for electrical contractor. Built With: NextJs, Typescript, Redux, Prisma, Postgres and Tailwind CSS. 
-    PDF invoices generated on demand in the browser. User authentication using OAuth providers and secure email links using Next-Auth. Dashboard built for easy 
-    storage and retrieval of all client, product and invoicing data.`,
-    techImages: [
-      { src: './img/svg_sprites/nextjs-icon.svg', alt: 'NextJS Icon' },
-      { src: './img/svg_sprites/nodejs_icon.svg', alt: 'NodeJS Icon' },
-      { src: './img/svg_sprites/js_icon.svg', alt: 'JavaScript Icon' },
-      { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
-      { src: './img/svg_sprites/redux_icon.svg', alt: 'Redux Icon' },
-    ],
-    image: './img/projects/max_volts.svg',
-    imageAlt: 'Max Volts Logo',
-    href: 'https://max-volts-preview.vercel.app/',
   },
 
   {
