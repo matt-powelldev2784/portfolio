@@ -22,7 +22,7 @@ export const projects = [
     Allows users to create, manage, and share calendar events.
     Users can send invitations to others, who can accept or decline event invites.
     User authentication is implemented with Firebase Authentication and OAuth providers.
-    End to end tests implemented with playwright. Unite tests implemented with Vitest and React Testing Library.`,
+    End to end tests implemented with playwright. Unit tests implemented with Vitest and React Testing Library.`,
     techImages: [
       { src: './img/svg_sprites/react_icon.svg', alt: 'React Icon' },
       { src: './img/svg_sprites/typescript_icon.svg', alt: 'TypeScript Icon' },
